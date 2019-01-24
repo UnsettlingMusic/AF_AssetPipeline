@@ -1,0 +1,1198 @@
+﻿Log file open, 01/23/19 21:23:23
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: Class_WhiteBox
+LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 17 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.274853
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -7:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin Firebase
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.170s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.21-CL-4613538
+LogInit: Engine Version: 4.21.1-4613538+++UE4+Release-4.21
+LogInit: Compatible Engine Version: 4.21.0-4541578+++UE4+Release-4.21
+LogInit: Net CL: 4541578
+LogInit: OS: Windows 8.1 (), CPU: AMD FX(tm)-6350 Six-Core Processor             , GPU: AMD Radeon R9 200 Series
+LogInit: Compiled (64-bit): Nov 30 2018 04:13:25
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.21
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.21/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 22
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 26
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 27
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 17
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 4
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogStreaming: Display: Took  0.001s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2019.01.24-04.23.23:599][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.01.24-04.23.23:599][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.01.24-04.23.23:599][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/owner/OneDrive/Documents/GItHubRepository/AF_AssetPipeline/WhiteBox_GeoBrushes/Saved/Config/Windows/Engine.ini]
+[2019.01.24-04.23.23:599][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.01.24-04.23.23:599][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/owner/OneDrive/Documents/GItHubRepository/AF_AssetPipeline/WhiteBox_GeoBrushes/Saved/Config/Windows/Engine.ini]
+[2019.01.24-04.23.23:599][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/owner/OneDrive/Documents/GItHubRepository/AF_AssetPipeline/WhiteBox_GeoBrushes/Saved/Config/Windows/Engine.ini]
+[2019.01.24-04.23.23:599][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.01.24-04.23.23:599][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.01.24-04.23.23:599][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.01.24-04.23.23:599][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.01.24-04.23.23:599][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.01.24-04.23.23:599][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.01.24-04.23.23:599][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.01.24-04.23.23:599][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.01.24-04.23.23:599][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.01.24-04.23.23:599][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.01.24-04.23.23:599][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.01.24-04.23.23:599][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.01.24-04.23.23:599][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.01.24-04.23.23:599][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/owner/OneDrive/Documents/GItHubRepository/AF_AssetPipeline/WhiteBox_GeoBrushes/Saved/Config/Windows/Engine.ini]
+[2019.01.24-04.23.23:599][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.01.24-04.23.23:599][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.01.24-04.23.23:599][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.01.24-04.23.23:599][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.01.24-04.23.23:599][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.01.24-04.23.23:599][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.01.24-04.23.23:599][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:8388607]]
+[2019.01.24-04.23.23:599][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.01.24-04.23.23:599][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.01.24-04.23.23:599][  0]LogConfig: Setting CVar [[gc.MergeGCClusters:0]]
+[2019.01.24-04.23.23:599][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.01.24-04.23.23:599][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.01.24-04.23.23:599][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.01.24-04.23.23:599][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.01.24-04.23.23:599][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/owner/OneDrive/Documents/GItHubRepository/AF_AssetPipeline/WhiteBox_GeoBrushes/Saved/Config/Windows/Engine.ini]
+[2019.01.24-04.23.23:599][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/owner/OneDrive/Documents/GItHubRepository/AF_AssetPipeline/WhiteBox_GeoBrushes/Saved/Config/Windows/Engine.ini]
+[2019.01.24-04.23.23:624][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/owner/OneDrive/Documents/GItHubRepository/AF_AssetPipeline/WhiteBox_GeoBrushes/Saved/Config/Windows/Scalability.ini]
+[2019.01.24-04.23.23:624][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.01.24-04.23.23:624][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.01.24-04.23.23:624][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/owner/OneDrive/Documents/GItHubRepository/AF_AssetPipeline/WhiteBox_GeoBrushes/Saved/Config/Windows/Scalability.ini]
+[2019.01.24-04.23.23:625][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.01.24-04.23.23:625][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/owner/OneDrive/Documents/GItHubRepository/AF_AssetPipeline/WhiteBox_GeoBrushes/Saved/Config/Windows/Scalability.ini]
+[2019.01.24-04.23.23:625][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.01.24-04.23.23:625][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.01.24-04.23.23:625][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.01.24-04.23.23:625][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.01.24-04.23.23:625][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.01.24-04.23.23:625][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.01.24-04.23.23:625][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.01.24-04.23.23:625][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.01.24-04.23.23:625][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.01.24-04.23.23:625][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.01.24-04.23.23:625][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.01.24-04.23.23:625][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.01.24-04.23.23:625][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.01.24-04.23.23:625][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.01.24-04.23.23:626][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.01.24-04.23.23:626][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.01.24-04.23.23:626][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.01.24-04.23.23:626][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.01.24-04.23.23:626][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/owner/OneDrive/Documents/GItHubRepository/AF_AssetPipeline/WhiteBox_GeoBrushes/Saved/Config/Windows/Scalability.ini]
+[2019.01.24-04.23.23:626][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.01.24-04.23.23:626][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.01.24-04.23.23:626][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.01.24-04.23.23:626][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.01.24-04.23.23:626][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.01.24-04.23.23:626][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.01.24-04.23.23:626][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.01.24-04.23.23:626][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.01.24-04.23.23:627][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.01.24-04.23.23:627][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.01.24-04.23.23:627][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.01.24-04.23.23:627][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.01.24-04.23.23:627][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.01.24-04.23.23:627][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.01.24-04.23.23:627][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.01.24-04.23.23:627][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.01.24-04.23.23:627][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.01.24-04.23.23:627][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.01.24-04.23.23:627][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.01.24-04.23.23:627][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.01.24-04.23.23:627][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.01.24-04.23.23:627][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.01.24-04.23.23:627][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.01.24-04.23.23:627][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.01.24-04.23.23:627][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.01.24-04.23.23:627][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.01.24-04.23.23:627][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.01.24-04.23.23:628][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.01.24-04.23.23:628][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.01.24-04.23.23:628][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.01.24-04.23.23:628][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/owner/OneDrive/Documents/GItHubRepository/AF_AssetPipeline/WhiteBox_GeoBrushes/Saved/Config/Windows/Scalability.ini]
+[2019.01.24-04.23.23:628][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.01.24-04.23.23:628][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.01.24-04.23.23:628][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.01.24-04.23.23:628][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.01.24-04.23.23:628][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.01.24-04.23.23:628][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.01.24-04.23.23:628][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.01.24-04.23.23:628][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.01.24-04.23.23:628][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/owner/OneDrive/Documents/GItHubRepository/AF_AssetPipeline/WhiteBox_GeoBrushes/Saved/Config/Windows/Scalability.ini]
+[2019.01.24-04.23.23:628][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.01.24-04.23.23:628][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.01.24-04.23.23:628][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.01.24-04.23.23:628][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.01.24-04.23.23:628][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.01.24-04.23.23:628][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.01.24-04.23.23:628][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.01.24-04.23.23:628][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.01.24-04.23.23:628][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.01.24-04.23.23:629][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.01.24-04.23.23:629][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.01.24-04.23.23:629][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.01.24-04.23.23:629][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.01.24-04.23.23:629][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/owner/OneDrive/Documents/GItHubRepository/AF_AssetPipeline/WhiteBox_GeoBrushes/Saved/Config/Windows/Scalability.ini]
+[2019.01.24-04.23.23:629][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.01.24-04.23.23:629][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.01.24-04.23.23:629][  0]LogInit: Selected Device Profile: [Windows]
+[2019.01.24-04.23.23:629][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.01.24-04.23.23:685][  0]LogHAL: Display: Platform has ~ 8 GB [8546492416 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.01.24-04.23.23:685][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:1]]
+[2019.01.24-04.23.23:685][  0]LogInit: Going up to parent DeviceProfile []
+[2019.01.24-04.23.23:685][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/owner/OneDrive/Documents/GItHubRepository/AF_AssetPipeline/WhiteBox_GeoBrushes/Saved/Config/Windows/Scalability.ini]
+[2019.01.24-04.23.23:685][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.01.24-04.23.23:685][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.01.24-04.23.23:685][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/owner/OneDrive/Documents/GItHubRepository/AF_AssetPipeline/WhiteBox_GeoBrushes/Saved/Config/Windows/Scalability.ini]
+[2019.01.24-04.23.23:685][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.01.24-04.23.23:685][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/owner/OneDrive/Documents/GItHubRepository/AF_AssetPipeline/WhiteBox_GeoBrushes/Saved/Config/Windows/Scalability.ini]
+[2019.01.24-04.23.23:685][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.01.24-04.23.23:685][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.01.24-04.23.23:685][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.01.24-04.23.23:685][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.01.24-04.23.23:685][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.01.24-04.23.23:685][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.01.24-04.23.23:685][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.01.24-04.23.23:686][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.01.24-04.23.23:686][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.01.24-04.23.23:686][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.01.24-04.23.23:686][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.01.24-04.23.23:686][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.01.24-04.23.23:686][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.01.24-04.23.23:686][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.01.24-04.23.23:686][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.01.24-04.23.23:686][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.01.24-04.23.23:686][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.01.24-04.23.23:686][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.01.24-04.23.23:686][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/owner/OneDrive/Documents/GItHubRepository/AF_AssetPipeline/WhiteBox_GeoBrushes/Saved/Config/Windows/Scalability.ini]
+[2019.01.24-04.23.23:686][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.01.24-04.23.23:686][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.01.24-04.23.23:686][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.01.24-04.23.23:686][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.01.24-04.23.23:686][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.01.24-04.23.23:686][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.01.24-04.23.23:686][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.01.24-04.23.23:686][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.01.24-04.23.23:686][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.01.24-04.23.23:686][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.01.24-04.23.23:686][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.01.24-04.23.23:686][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.01.24-04.23.23:686][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.01.24-04.23.23:686][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.01.24-04.23.23:686][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.01.24-04.23.23:687][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.01.24-04.23.23:687][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.01.24-04.23.23:687][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.01.24-04.23.23:687][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.01.24-04.23.23:687][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.01.24-04.23.23:687][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.01.24-04.23.23:687][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.01.24-04.23.23:687][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.01.24-04.23.23:687][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.01.24-04.23.23:687][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.01.24-04.23.23:687][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.01.24-04.23.23:687][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.01.24-04.23.23:687][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.01.24-04.23.23:687][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.01.24-04.23.23:687][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.01.24-04.23.23:687][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/owner/OneDrive/Documents/GItHubRepository/AF_AssetPipeline/WhiteBox_GeoBrushes/Saved/Config/Windows/Scalability.ini]
+[2019.01.24-04.23.23:687][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.01.24-04.23.23:687][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.01.24-04.23.23:687][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.01.24-04.23.23:687][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.01.24-04.23.23:687][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.01.24-04.23.23:687][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.01.24-04.23.23:687][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.01.24-04.23.23:687][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.01.24-04.23.23:687][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/owner/OneDrive/Documents/GItHubRepository/AF_AssetPipeline/WhiteBox_GeoBrushes/Saved/Config/Windows/Scalability.ini]
+[2019.01.24-04.23.23:687][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.01.24-04.23.23:687][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.01.24-04.23.23:687][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.01.24-04.23.23:688][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.01.24-04.23.23:688][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.01.24-04.23.23:688][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.01.24-04.23.23:688][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.01.24-04.23.23:688][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.01.24-04.23.23:688][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.01.24-04.23.23:688][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.01.24-04.23.23:688][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.01.24-04.23.23:688][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.01.24-04.23.23:688][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.01.24-04.23.23:688][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/owner/OneDrive/Documents/GItHubRepository/AF_AssetPipeline/WhiteBox_GeoBrushes/Saved/Config/Windows/Scalability.ini]
+[2019.01.24-04.23.23:688][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.01.24-04.23.23:688][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.01.24-04.23.23:688][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.01.24-04.23.23:704][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.01.24-04.23.23:704][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/owner/OneDrive/Documents/GItHubRepository/AF_AssetPipeline/WhiteBox_GeoBrushes/Saved/Config/Windows/Engine.ini]
+[2019.01.24-04.23.23:705][  0]LogInit: Computer: GIGABYTE-AMD
+[2019.01.24-04.23.23:705][  0]LogInit: User: owner
+[2019.01.24-04.23.23:705][  0]LogInit: CPU Page size=4096, Cores=3
+[2019.01.24-04.23.23:705][  0]LogInit: High frequency timer resolution =3.826286 MHz
+[2019.01.24-04.23.23:705][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2019.01.24-04.23.23:705][  0]LogMemory: Platform Memory Stats for Windows
+[2019.01.24-04.23.23:705][  0]LogMemory: Process Physical Memory: 100.52 MB used, 100.52 MB peak
+[2019.01.24-04.23.23:705][  0]LogMemory: Process Virtual Memory: 84.83 MB used, 84.83 MB peak
+[2019.01.24-04.23.23:705][  0]LogMemory: Physical Memory: 2884.26 MB used,  5266.31 MB free, 8150.57 MB total
+[2019.01.24-04.23.23:705][  0]LogMemory: Virtual Memory: 482.95 MB used,  134217248.00 MB free, 134217728.00 MB total
+[2019.01.24-04.23.23:729][  0]LogInit: Using OS detected language (en-US).
+[2019.01.24-04.23.23:729][  0]LogInit: Using OS detected locale (en-US).
+[2019.01.24-04.23.23:730][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.01.24-04.23.24:285][  0]LogStreaming: Display: Took  0.556s to InitEngineTextLocalization.
+[2019.01.24-04.23.24:285][  0]LogInit: Setting process to per monitor DPI aware
+[2019.01.24-04.23.24:327][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.01.24-04.23.24:327][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.01.24-04.23.26:968][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.01.24-04.23.26:968][  0]LogD3D11RHI: D3D11 adapters:
+[2019.01.24-04.23.26:985][  0]LogD3D11RHI:    0. 'AMD Radeon R9 200 Series' (Feature Level 11_0)
+[2019.01.24-04.23.26:985][  0]LogD3D11RHI:       4074/0/3840 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x1002
+[2019.01.24-04.23.26:986][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.01.24-04.23.26:986][  0]LogD3D11RHI:       0/0/256 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.01.24-04.23.26:986][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.01.24-04.23.26:991][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.01.24-04.23.26:991][  0]LogD3D11RHI:     GPU DeviceId: 0x6810 (for the marketing name, search the web for "GPU Device Id")
+[2019.01.24-04.23.26:991][  0]LogWindows: EnumDisplayDevices:
+[2019.01.24-04.23.26:991][  0]LogWindows:    0. 'AMD Radeon R9 200 Series' (P:1 D:1)
+[2019.01.24-04.23.26:992][  0]LogWindows:    1. 'AMD Radeon R9 200 Series' (P:0 D:0)
+[2019.01.24-04.23.26:992][  0]LogWindows:    2. 'AMD Radeon R9 200 Series' (P:0 D:0)
+[2019.01.24-04.23.26:992][  0]LogWindows:    3. 'AMD Radeon R9 200 Series' (P:0 D:0)
+[2019.01.24-04.23.26:992][  0]LogWindows:    4. 'AMD Radeon R9 200 Series' (P:0 D:0)
+[2019.01.24-04.23.26:992][  0]LogWindows:    5. 'AMD Radeon R9 200 Series' (P:0 D:0)
+[2019.01.24-04.23.26:992][  0]LogWindows: DebugString: FoundDriverCount:6 
+[2019.01.24-04.23.26:992][  0]LogD3D11RHI:     Adapter Name: AMD Radeon R9 200 Series
+[2019.01.24-04.23.26:993][  0]LogD3D11RHI:   Driver Version: Crimson ReLive 17.7.1 (internal:22.19.171.1024, unified:22.19.171.1024)
+[2019.01.24-04.23.26:993][  0]LogD3D11RHI:      Driver Date: 7-4-2017
+[2019.01.24-04.23.26:993][  0]LogRHI: Texture pool is 2851 MB (70% of 4074 MB)
+[2019.01.24-04.23.27:058][  0]LogD3D11RHI: Async texture creation enabled
+[2019.01.24-04.23.27:071][  0]LogD3D11RHI: GPU Timing Frequency: 27.000000 (Debug: 2 1)
+[2019.01.24-04.23.27:397][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.01.24-04.23.27:415][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.01.24-04.23.27:432][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.01.24-04.23.27:450][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.01.24-04.23.27:480][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.01.24-04.23.27:497][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.01.24-04.23.27:514][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.01.24-04.23.27:532][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.01.24-04.23.27:539][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.01.24-04.23.27:657][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.24-04.23.27:657][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.24-04.23.27:657][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.24-04.23.27:657][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.24-04.23.27:657][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.24-04.23.27:657][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.24-04.23.27:657][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.24-04.23.27:657][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.24-04.23.27:657][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.24-04.23.27:657][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.24-04.23.27:657][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.24-04.23.27:657][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.24-04.23.27:657][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.24-04.23.27:657][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.24-04.23.27:657][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.24-04.23.27:657][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.24-04.23.27:657][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.24-04.23.27:658][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.24-04.23.27:659][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.01.24-04.23.27:743][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.01.24-04.23.27:743][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.01.24-04.23.27:775][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.01.24-04.23.27:775][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.01.24-04.23.27:791][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.01.24-04.23.27:808][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.01.24-04.23.27:827][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.01.24-04.23.27:878][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.01.24-04.23.27:945][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.01.24-04.23.27:945][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.01.24-04.23.27:945][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.01.24-04.23.28:009][  0]LogShaderCompilers: Guid format shader working directory is -56 characters bigger than the processId version (../../../../../../Users/owner/OneDrive/Documents/GItHubRepository/AF_AssetPipeline/WhiteBox_GeoBrushes/Intermediate/Shaders/WorkingDirectory/7864/).
+[2019.01.24-04.23.28:009][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/owner/AppData/Local/Temp/UnrealShaderWorkingDir/6AEDA9574CC1CA862964F1816FC75750/'.
+[2019.01.24-04.23.28:011][  0]LogXGEController: Cleaning working directory: C:/Users/owner/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.01.24-04.23.28:011][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.01.24-04.23.28:011][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.01.24-04.23.28:011][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.01.24-04.23.33:121][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.01.24-04.23.33:482][  0]LogDerivedDataCache: Loaded boot cache 0.36s 71MB C:/Users/owner/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
+[2019.01.24-04.23.33:482][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/owner/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc
+[2019.01.24-04.23.33:482][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/owner/OneDrive/Documents/GItHubRepository/AF_AssetPipeline/WhiteBox_GeoBrushes/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.01.24-04.23.33:482][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.01.24-04.23.33:482][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/owner/OneDrive/Documents/GItHubRepository/AF_AssetPipeline/WhiteBox_GeoBrushes/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.01.24-04.23.33:482][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.01.24-04.23.33:504][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.01.24-04.23.33:504][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.01.24-04.23.33:504][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2019.01.24-04.23.33:516][  0]LogDerivedDataCache: Using Local data cache path C:/Users/owner/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.01.24-04.23.33:516][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.01.24-04.23.33:516][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.01.24-04.23.33:551][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.01.24-04.23.33:553][  0]LogSlate: Using FreeType 2.6.0
+[2019.01.24-04.23.33:553][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.01.24-04.23.33:926][  0]LogAssetRegistry: FAssetRegistry took 0.0400 seconds to start up
+[2019.01.24-04.23.34:428][  0]LogInit: Selected Device Profile: [Windows]
+[2019.01.24-04.23.34:616][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.01.24-04.23.34:620][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.01.24-04.23.34:620][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.01.24-04.23.34:620][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.01.24-04.23.34:620][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.01.24-04.23.34:636][  0]LogNetVersion: Class_WhiteBox 1.0.0, NetCL: 4541578, EngineNetVer: 5, GameNetVer: 0 (Checksum: 3672237988)
+[2019.01.24-04.23.35:294][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.108217 seconds
+[2019.01.24-04.23.35:301][  0]LogUObjectArray: 39775 objects as part of root set at end of initial load.
+[2019.01.24-04.23.35:301][  0]LogUObjectAllocator: 6914664 out of 0 bytes used by permanent object pool.
+[2019.01.24-04.23.35:301][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.01.24-04.23.54:845][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.01.24-04.23.54:858][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.01.24-04.23.55:979][  0]SourceControl: Source control is disabled
+[2019.01.24-04.23.55:979][  0]SourceControl: Source control is disabled
+[2019.01.24-04.23.55:981][  0]SourceControl: Source control is disabled
+[2019.01.24-04.23.55:981][  0]SourceControl: Source control is disabled
+[2019.01.24-04.23.56:179][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.01.24-04.23.56:242][  0]LogOcInput: OculusInput pre-init called
+[2019.01.24-04.23.56:442][  0]LogEngine: Initializing Engine...
+[2019.01.24-04.23.56:443][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.01.24-04.23.56:445][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.01.24-04.23.56:446][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.01.24-04.23.56:446][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.01.24-04.23.56:446][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.01.24-04.23.56:762][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.01.24-04.23.56:778][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.01.24-04.23.56:807][  0]LogInit: XAudio2 using 'Speakers (2- Logitech G933 Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2019.01.24-04.23.56:823][  0]LogInit: FAudioDevice initialized.
+[2019.01.24-04.23.56:823][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.01.24-04.23.56:978][  0]LogDerivedDataCache: Saved boot cache 0.15s 71MB C:/Users/owner/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
+[2019.01.24-04.23.56:994][  0]LogInit: Texture streaming: Enabled
+[2019.01.24-04.23.57:014][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.01.24-04.23.57:014][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={21ACE92E-4DBD-0632-774D-5C96D7DF8C90}
+[2019.01.24-04.23.57:026][  0]LogInit: Transaction tracking system initialized
+[2019.01.24-04.23.57:050][  0]BlueprintLog: New page: Editor Load
+[2019.01.24-04.23.57:133][  0]LocalizationService: Localization service is disabled
+[2019.01.24-04.23.57:922][  0]LogFileCache: Scanning file cache for directory 'C:/Users/owner/OneDrive/Documents/GItHubRepository/AF_AssetPipeline/WhiteBox_GeoBrushes/Content/' took 0.02s
+[2019.01.24-04.23.57:922][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.01.24-04.23.57:922][  0]LogCook: Display: Mobile HDR setting 1
+[2019.01.24-04.23.57:922][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.01.24-04.23.57:922][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.01.24-04.23.57:922][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.01.24-04.23.57:922][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.01.24-04.23.57:922][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.01.24-04.24.00:680][  0]SourceControl: Source control is disabled
+[2019.01.24-04.24.00:680][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.01.24-04.24.00:681][  0]LightingResults: New page: Lighting Build
+[2019.01.24-04.24.00:683][  0]MapCheck: New page: Map Check
+[2019.01.24-04.24.00:683][  0]LightingResults: New page: Lighting Build
+[2019.01.24-04.24.01:017][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2019.01.24-04.24.01:028][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.01.24-04.24.01:104][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.01.24-04.24.01:105][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.235ms to complete.
+[2019.01.24-04.24.01:105][  0]LogFileHelpers: Loading map 'Template_Default' took 0.424
+[2019.01.24-04.24.01:300][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.24-04.24.01:312][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.24-04.24.01:324][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.24-04.24.01:336][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.24-04.24.01:350][  0]LogCollectionManager: Loaded 0 collections in 0.001858 seconds
+[2019.01.24-04.24.01:380][  0]LogFileCache: Scanning file cache for directory 'C:/Users/owner/OneDrive/Documents/GItHubRepository/AF_AssetPipeline/WhiteBox_GeoBrushes/Saved/Collections/' took 0.01s
+[2019.01.24-04.24.01:380][  0]LogFileCache: Scanning file cache for directory 'C:/Users/owner/OneDrive/Documents/GItHubRepository/AF_AssetPipeline/WhiteBox_GeoBrushes/Content/Developers/owner/Collections/' took 0.01s
+[2019.01.24-04.24.01:380][  0]LogFileCache: Scanning file cache for directory 'C:/Users/owner/OneDrive/Documents/GItHubRepository/AF_AssetPipeline/WhiteBox_GeoBrushes/Content/Collections/' took 0.00s
+[2019.01.24-04.24.01:380][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2019.01.24-04.24.01:396][  0]LogContentBrowser: Native class hierarchy populated in 0.0161 seconds. Added 2651 classes and 620 folders.
+[2019.01.24-04.24.01:403][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.01.24-04.24.01:485][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.24-04.24.01:487][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.24-04.24.01:487][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.24-04.24.01:487][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.24-04.24.01:489][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.24-04.24.01:489][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.24-04.24.01:489][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.24-04.24.01:490][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.24-04.24.01:490][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.24-04.24.01:491][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.24-04.24.01:491][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.24-04.24.01:492][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.24-04.24.01:492][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.24-04.24.01:494][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.24-04.24.01:494][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.24-04.24.01:495][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.24-04.24.01:495][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.24-04.24.01:496][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.24-04.24.01:496][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.24-04.24.01:497][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.24-04.24.01:498][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.24-04.24.01:498][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.24-04.24.01:499][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.24-04.24.01:500][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.24-04.24.01:500][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.24-04.24.01:501][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.24-04.24.02:900][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.01.24-04.24.02:906][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2019.01.24-04.24.02:925][  0]LogSlate: Took 0.000207 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.01.24-04.24.02:928][  0]LogSlate: Took 0.000192 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.01.24-04.24.03:016][  0]LogSlate: Took 0.081348 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.01.24-04.24.03:136][  0]LogRenderer: Reallocating scene render targets to support 1208x556 Format 10 NumSamples 1 (Frame:1).
+[2019.01.24-04.24.03:309][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.01.24-04.24.03:309][  0]LogLoad: (Engine Initialization) Total time: 44.63 seconds
+[2019.01.24-04.24.03:309][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.01.24-04.24.03:381][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.01.24-04.24.03:418][  0]LogSlate: Took 0.018047 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.01.24-04.24.03:514][  2]LogAssetRegistry: Asset discovery search completed in 29.6096 seconds
+[2019.01.24-04.24.03:521][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.01.24-04.24.03:521][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000089 seconds (updated 0 objects)
+[2019.01.24-04.24.06:633][361]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.24-04.24.09:336][682]LogSlate: Took 0.000174 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.01.24-04.24.09:706][682]LogAIModule: Creating AISystem for world AF_WhiteBox
+[2019.01.24-04.24.09:770][682]LogAssetEditorManager: Opening Asset editor for World /Game/Maps/AF_WhiteBox.AF_WhiteBox
+[2019.01.24-04.24.09:872][682]Cmd: MAP LOAD FILE="../../../../../../Users/owner/OneDrive/Documents/GItHubRepository/AF_AssetPipeline/WhiteBox_GeoBrushes/Content/Maps/AF_WhiteBox.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.01.24-04.24.09:872][682]LightingResults: New page: Lighting Build
+[2019.01.24-04.24.09:873][682]LoadErrors: New page: Loading map: AF_WhiteBox.umap
+[2019.01.24-04.24.09:873][682]MapCheck: New page: Map Check
+[2019.01.24-04.24.09:873][682]LightingResults: New page: Lighting Build
+[2019.01.24-04.24.10:015][682]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.01.24-04.24.10:140][682]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.01.24-04.24.10:141][682]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.186ms to complete.
+[2019.01.24-04.24.10:141][682]LogFileHelpers: Loading map 'AF_WhiteBox' took 0.270
+[2019.01.24-04.24.23:000][775]LogMaterial: Display: Missing cached shader map for material M_GeoBrush_Material_AF, compiling. 
+[2019.01.24-04.24.23:072][775]LogMaterial: Display: Missing cached shader map for material M_WBMaterial_AF, compiling. 
+[2019.01.24-04.24.23:097][775]LogShaderCompilers: Display: Shaders left to compile 22
+[2019.01.24-04.24.23:097][775]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.01.24-04.24.27:157][108]LogShaderCompilers: Display: Shaders left to compile 24
+[2019.01.24-04.24.29:266][294]LogShaderCompilers: Display: Shaders left to compile 14
+[2019.01.24-04.24.30:384][408]LogShaderCompilers: Display: Shaders left to compile 4
+[2019.01.24-04.24.31:069][472]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.24-04.24.32:346][580]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.24-04.24.39:882][113]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.24-04.24.44:897][381]LogSavePackage: Moving '../../../../../../Users/owner/OneDrive/Documents/GItHubRepository/AF_AssetPipeline/WhiteBox_GeoBrushes/Saved/AF_WhiteBoxF9C102FD4D662AEAB0056E93C2C8F899.tmp' to '../../../../../../Users/owner/OneDrive/Documents/GItHubRepository/AF_AssetPipeline/WhiteBox_GeoBrushes/Content/Maps/AF_WhiteBox.umap'
+[2019.01.24-04.24.44:975][381]LogSavePackage: Moving '../../../../../../Users/owner/OneDrive/Documents/GItHubRepository/AF_AssetPipeline/WhiteBox_GeoBrushes/Saved/AF_WhiteBox_BuiltData4AC82CB54D009549A345DDBFE00F2B3B.tmp' to '../../../../../../Users/owner/OneDrive/Documents/GItHubRepository/AF_AssetPipeline/WhiteBox_GeoBrushes/Content/Maps/AF_WhiteBox_BuiltData.uasset'
+[2019.01.24-04.24.48:459][756]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.24-04.24.49:866][867]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.24-04.25.04:199][265]LogTextFormatter: Warning: Failed to parse argument "ExistingAsset" as a number (using "0" as a fallback). Please check your format string for errors: "{ExistingAsset} already exists. Do you want to replace it?".
+[2019.01.24-04.25.05:871][265]LogSlate: Window 'Message' being destroyed
+[2019.01.24-04.25.05:876][265]LogSlate: Window 'Save Level As' being destroyed
+[2019.01.24-04.25.06:718][265]LogSavePackage: Moving '../../../../../../Users/owner/OneDrive/Documents/GItHubRepository/AF_AssetPipeline/WhiteBox_GeoBrushes/Saved/AF_WhiteBoxAF5FCD8D4C79C0F8E6B5D98AED3063FA.tmp' to '../../../../../../Users/owner/OneDrive/Documents/GItHubRepository/AF_AssetPipeline/WhiteBox_GeoBrushes/Content/Maps/AF_WhiteBox.umap'
+[2019.01.24-04.25.06:784][265]LogSavePackage: Moving '../../../../../../Users/owner/OneDrive/Documents/GItHubRepository/AF_AssetPipeline/WhiteBox_GeoBrushes/Saved/AF_WhiteBox_BuiltData90EA23AA4450D68C2C60A8A49BF45765.tmp' to '../../../../../../Users/owner/OneDrive/Documents/GItHubRepository/AF_AssetPipeline/WhiteBox_GeoBrushes/Content/Maps/AF_WhiteBox_BuiltData.uasset'
+[2019.01.24-04.25.06:789][265]LogFileHelpers: Saving map 'AF_WhiteBox' took 0.909
+[2019.01.24-04.25.06:791][265]Cmd: MAP LOAD FILE="../../../../../../Users/owner/OneDrive/Documents/GItHubRepository/AF_AssetPipeline/WhiteBox_GeoBrushes/Content/Maps/AF_WhiteBox.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.01.24-04.25.06:807][265]LightingResults: New page: Lighting Build
+[2019.01.24-04.25.06:809][265]LoadErrors: New page: Loading map: AF_WhiteBox.umap
+[2019.01.24-04.25.06:814][265]MapCheck: New page: Map Check
+[2019.01.24-04.25.06:814][265]LightingResults: New page: Lighting Build
+[2019.01.24-04.25.07:095][265]LogAIModule: Creating AISystem for world AF_WhiteBox
+[2019.01.24-04.25.07:122][265]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.01.24-04.25.07:250][265]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.01.24-04.25.07:250][265]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.181ms to complete.
+[2019.01.24-04.25.07:250][265]LogFileHelpers: Loading map 'AF_WhiteBox' took 0.461
+[2019.01.24-04.25.11:653][470]LogSlate: Window 'Save Content' being destroyed
+[2019.01.24-04.25.11:725][470]LogSavePackage: Moving '../../../../../../Users/owner/OneDrive/Documents/GItHubRepository/AF_AssetPipeline/WhiteBox_GeoBrushes/Saved/IM_GrassMaterial_AF315B4F5043F5A1B94D2A9F8C1B59EA51.tmp' to '../../../../../../Users/owner/OneDrive/Documents/GItHubRepository/AF_AssetPipeline/WhiteBox_GeoBrushes/Content/Maps/IM_GrassMaterial_AF.uasset'
+[2019.01.24-04.25.11:770][470]LogSavePackage: Moving '../../../../../../Users/owner/OneDrive/Documents/GItHubRepository/AF_AssetPipeline/WhiteBox_GeoBrushes/Saved/IM_SideWalkMaterial_AFE1ABA47B41855189E15054864F895A45.tmp' to '../../../../../../Users/owner/OneDrive/Documents/GItHubRepository/AF_AssetPipeline/WhiteBox_GeoBrushes/Content/Maps/IM_SideWalkMaterial_AF.uasset'
+[2019.01.24-04.25.11:819][470]LogSavePackage: Moving '../../../../../../Users/owner/OneDrive/Documents/GItHubRepository/AF_AssetPipeline/WhiteBox_GeoBrushes/Saved/IM_StreetMaterial_AFEAB96EA94B3557316A6831ACCD9292DE.tmp' to '../../../../../../Users/owner/OneDrive/Documents/GItHubRepository/AF_AssetPipeline/WhiteBox_GeoBrushes/Content/Maps/IM_StreetMaterial_AF.uasset'
+[2019.01.24-04.25.11:870][470]LogSavePackage: Moving '../../../../../../Users/owner/OneDrive/Documents/GItHubRepository/AF_AssetPipeline/WhiteBox_GeoBrushes/Saved/M_GeoBrush_Material_AFDF3A53A94210BC7A6D93E1B6E10FCAAA.tmp' to '../../../../../../Users/owner/OneDrive/Documents/GItHubRepository/AF_AssetPipeline/WhiteBox_GeoBrushes/Content/Maps/M_GeoBrush_Material_AF.uasset'
+[2019.01.24-04.25.11:919][470]LogSavePackage: Moving '../../../../../../Users/owner/OneDrive/Documents/GItHubRepository/AF_AssetPipeline/WhiteBox_GeoBrushes/Saved/M_WBMaterial_AFF91400FE4DE311C4DF60F9862CDE4C7B.tmp' to '../../../../../../Users/owner/OneDrive/Documents/GItHubRepository/AF_AssetPipeline/WhiteBox_GeoBrushes/Content/Maps/M_WBMaterial_AF.uasset'
+[2019.01.24-04.25.39:448][992]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.01.24-04.25.40:479][105]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.24-04.25.51:008][239]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.24-04.25.54:776][635]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.01.24-04.25.57:662][952]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.24-04.26.00:856][292]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.24-04.26.05:333][755]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2019.01.24-04.26.05:941][810]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.01.24-04.26.12:909][600]LogEditorViewport: Clicking on Actor (LMB): Brush (Linear Stair Brush5)
+[2019.01.24-04.26.18:117][197]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.24-04.26.25:130][951]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.01.24-04.26.30:627][540]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.01.24-04.26.49:184][535]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.24-04.27.01:904][938]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.24-04.27.11:665][  9]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.24-04.27.36:431][776]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.24-04.27.42:617][438]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.24-04.27.46:030][760]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.01.24-04.27.46:852][843]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.24-04.27.49:146][ 57]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.24-04.27.49:884][125]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.01.24-04.27.51:051][260]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.24-04.27.55:305][745]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.01.24-04.28.00:097][284]Cmd: DELETE
+[2019.01.24-04.28.00:097][284]Cmd: ACTOR DELETE
+[2019.01.24-04.28.00:219][284]LogEditorActor: Deleted Actor: Brush
+[2019.01.24-04.28.00:454][284]LogEditorActor: Deleted 1 Actors (0.302 secs)
+[2019.01.24-04.28.01:644][382]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.24-04.28.04:112][608]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2019.01.24-04.28.04:878][681]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.01.24-04.28.13:327][576]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.24-04.28.22:388][501]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.24-04.28.39:903][411]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.24-04.28.48:629][356]Cmd: DELETE
+[2019.01.24-04.28.48:629][356]Cmd: ACTOR DELETE
+[2019.01.24-04.28.48:695][356]LogEditorActor: Deleted Actor: Brush
+[2019.01.24-04.28.48:918][356]LogEditorActor: Deleted 1 Actors (0.288 secs)
+[2019.01.24-04.28.49:838][443]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.01.24-04.29.22:422][713]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.24-04.29.32:440][793]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.24-04.29.38:098][414]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.24-04.29.54:996][231]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.01.24-04.29.58:897][594]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.01.24-04.30.01:554][886]Cmd: TRANSACTION UNDO
+[2019.01.24-04.30.01:554][886]LogEditorTransaction: Undo Move Actors
+[2019.01.24-04.30.05:150][201]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.24-04.30.14:897][281]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.24-04.30.23:818][287]Cmd: TRANSACTION UNDO
+[2019.01.24-04.30.23:818][287]LogEditorTransaction: Undo Rotate Actors
+[2019.01.24-04.30.24:554][323]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.01.24-04.30.33:574][313]Cmd: TRANSACTION UNDO
+[2019.01.24-04.30.33:574][313]LogEditorTransaction: Undo Rotate Actors
+[2019.01.24-04.30.44:609][459]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.24-04.30.54:212][484]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.01.24-04.31.16:676][913]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.01.24-04.31.21:520][448]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.24-04.31.26:733][998]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.01.24-04.31.31:428][491]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.24-04.31.37:156][103]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.01.24-04.31.40:405][421]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.01.24-04.32.06:682][275]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.24-04.32.22:519][952]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.24-04.32.29:970][767]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.24-04.32.30:017][767]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.24-04.32.36:188][444]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.01.24-04.32.53:514][393]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.24-04.33.11:081][278]Cmd: TRANSACTION UNDO
+[2019.01.24-04.33.11:081][278]LogEditorTransaction: Undo Move Actors
+[2019.01.24-04.33.42:611][654]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.01.24-04.34.01:077][717]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.01.24-04.34.08:817][580]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.01.24-04.34.21:376][905]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.24-04.34.22:804][ 55]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.24-04.34.24:739][226]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2019.01.24-04.34.25:791][321]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.01.24-04.34.35:012][233]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.01.24-04.34.44:680][238]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.24-04.34.54:239][198]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.01.24-04.35.13:967][270]Cmd: DELETE
+[2019.01.24-04.35.13:967][270]Cmd: ACTOR DELETE
+[2019.01.24-04.35.14:073][270]LogEditorActor: Deleted Actor: Brush
+[2019.01.24-04.35.14:353][270]LogEditorActor: Deleted 1 Actors (0.385 secs)
+[2019.01.24-04.35.16:207][460]Cmd: DELETE
+[2019.01.24-04.35.16:207][460]Cmd: ACTOR DELETE
+[2019.01.24-04.35.16:269][460]LogEditorActor: Deleted Actor: Brush
+[2019.01.24-04.35.16:529][460]LogEditorActor: Deleted 1 Actors (0.321 secs)
+[2019.01.24-04.35.22:969][164]Cmd: DELETE
+[2019.01.24-04.35.22:969][164]Cmd: ACTOR DELETE
+[2019.01.24-04.35.23:032][164]LogEditorActor: Deleted Actor: Brush
+[2019.01.24-04.35.23:032][164]LogEditorActor: Deleted Actor: Brush
+[2019.01.24-04.35.23:269][164]LogEditorActor: Deleted 2 Actors (0.300 secs)
+[2019.01.24-04.35.27:974][692]Cmd: DELETE
+[2019.01.24-04.35.27:974][692]Cmd: ACTOR DELETE
+[2019.01.24-04.35.28:032][692]LogEditorActor: Deleted Actor: Brush
+[2019.01.24-04.35.28:252][692]LogEditorActor: Deleted 1 Actors (0.277 secs)
+[2019.01.24-04.35.35:273][477]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.01.24-04.35.37:134][672]Cmd: DELETE
+[2019.01.24-04.35.37:134][672]Cmd: ACTOR DELETE
+[2019.01.24-04.35.37:201][672]LogEditorActor: Deleted Actor: Brush
+[2019.01.24-04.35.37:415][672]LogEditorActor: Deleted 1 Actors (0.280 secs)
+[2019.01.24-04.35.40:361][994]Cmd: DELETE
+[2019.01.24-04.35.40:361][994]Cmd: ACTOR DELETE
+[2019.01.24-04.35.40:419][994]LogEditorActor: Deleted Actor: Brush
+[2019.01.24-04.35.40:608][994]LogEditorActor: Deleted 1 Actors (0.246 secs)
+[2019.01.24-04.35.43:582][335]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.24-04.35.44:558][431]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2019.01.24-04.35.49:336][872]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.01.24-04.35.51:530][121]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.24-04.36.21:282][493]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.24-04.36.38:642][400]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.24-04.36.49:991][656]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.24-04.36.59:315][631]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.24-04.37.12:117][ 38]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.24-04.37.44:113][449]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.24-04.38.11:241][723]LogSavePackage: Moving '../../../../../../Users/owner/OneDrive/Documents/GItHubRepository/AF_AssetPipeline/WhiteBox_GeoBrushes/Saved/AF_WhiteBox_Auto1F0DA73B4440A2B8F3F6094A81E33E87F.tmp' to '../../../../../../Users/owner/OneDrive/Documents/GItHubRepository/AF_AssetPipeline/WhiteBox_GeoBrushes/Saved/Autosaves/Game/Maps/AF_WhiteBox_Auto1.umap'
+[2019.01.24-04.38.11:248][723]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/AF_WhiteBox' took 1.337
+[2019.01.24-04.38.11:248][723]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.337
+[2019.01.24-04.38.53:017][701]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.24-04.38.59:232][363]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.24-04.39.18:009][421]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.24-04.39.41:912][  7]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.24-04.39.52:696][154]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.24-04.39.59:772][933]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.24-04.40.11:054][207]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.24-04.40.12:420][356]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.24-04.40.16:225][777]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.24-04.40.17:216][869]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2019.01.24-04.40.18:816][ 33]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.01.24-04.40.22:037][375]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.24-04.40.35:053][784]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.24-04.40.43:015][664]LogEditorViewport: Clicking on Actor (LMB): Brush (Linear Stair Brush5)
+[2019.01.24-04.40.44:468][823]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.24-04.41.00:789][605]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.24-04.41.29:773][814]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.24-04.41.32:595][113]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.24-04.41.43:102][266]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.01.24-04.42.08:819][ 93]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.01.24-04.42.16:469][937]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.24-04.42.20:605][388]Cmd: TRANSACTION UNDO
+[2019.01.24-04.42.20:605][388]LogEditorTransaction: Undo Set Location
+[2019.01.24-04.42.50:588][683]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.24-04.42.51:470][784]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.01.24-04.42.57:128][387]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.24-04.42.57:547][433]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.01.24-04.43.03:497][ 63]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.01.24-04.43.05:254][262]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.24-04.43.15:128][324]Cmd: TRANSACTION UNDO
+[2019.01.24-04.43.15:128][324]LogEditorTransaction: Undo Move Actors
+[2019.01.24-04.43.18:542][665]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.24-04.43.32:667][195]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.24-04.44.31:903][518]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.24-04.44.37:745][ 99]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.24-04.45.04:259][ 20]LogEditorViewport: Clicking on Actor (LMB): Brush (Linear Stair Brush5)
+[2019.01.24-04.45.04:659][ 60]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.01.24-04.45.20:989][841]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.01.24-04.45.36:751][569]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.24-04.45.41:611][988]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2019.01.24-04.45.42:414][ 59]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.01.24-04.45.44:515][280]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.24-04.45.52:413][ 88]Cmd: TRANSACTION UNDO
+[2019.01.24-04.45.52:413][ 88]LogEditorTransaction: Undo Move Actors
+[2019.01.24-04.46.05:797][513]LogEditorViewport: Clicking on Actor (LMB): Brush (Linear Stair Brush6)
+[2019.01.24-04.46.08:807][821]Cmd: TRANSACTION UNDO
+[2019.01.24-04.46.08:807][821]LogEditorTransaction: Undo Move Actors
+[2019.01.24-04.46.09:433][847]Cmd: TRANSACTION UNDO
+[2019.01.24-04.46.09:433][847]LogEditorTransaction: Undo Clicking on Actors
+[2019.01.24-04.46.09:992][899]Cmd: TRANSACTION UNDO
+[2019.01.24-04.46.09:992][899]LogEditorTransaction: Undo Select Brush Surface
+[2019.01.24-04.46.10:558][951]Cmd: TRANSACTION UNDO
+[2019.01.24-04.46.10:558][951]LogEditorTransaction: Undo Regroup Ctrl+G
+[2019.01.24-04.46.11:080][992]Cmd: TRANSACTION UNDO
+[2019.01.24-04.46.11:080][992]LogEditorTransaction: Undo Select Brush Surface
+[2019.01.24-04.46.11:626][ 46]Cmd: TRANSACTION UNDO
+[2019.01.24-04.46.11:626][ 46]LogEditorTransaction: Undo Apply Material to Selected Surfaces
+[2019.01.24-04.46.12:193][107]Cmd: TRANSACTION UNDO
+[2019.01.24-04.46.12:194][107]LogEditorTransaction: Undo Apply Material to Selected Surfaces
+[2019.01.24-04.46.13:468][250]Cmd: TRANSACTION UNDO
+[2019.01.24-04.46.13:468][250]LogEditorTransaction: Undo Move Actors
+[2019.01.24-04.46.15:841][488]Cmd: TRANSACTION UNDO
+[2019.01.24-04.46.15:841][488]LogEditorTransaction: Undo Edit Brush Type
+[2019.01.24-04.46.21:940][106]Cmd: DELETE
+[2019.01.24-04.46.21:940][106]Cmd: ACTOR DELETE
+[2019.01.24-04.46.22:048][106]LogEditorActor: Deleted Actor: Brush
+[2019.01.24-04.46.22:315][106]LogEditorActor: Deleted 1 Actors (0.375 secs)
+[2019.01.24-04.46.23:573][233]Cmd: DELETE
+[2019.01.24-04.46.23:573][233]Cmd: ACTOR DELETE
+[2019.01.24-04.46.23:629][233]LogEditorActor: Deleted Actor: Brush
+[2019.01.24-04.46.23:845][233]LogEditorActor: Deleted 1 Actors (0.271 secs)
+[2019.01.24-04.46.24:321][271]Cmd: DELETE
+[2019.01.24-04.46.24:321][271]Cmd: ACTOR DELETE
+[2019.01.24-04.46.24:377][271]LogEditorActor: Deleted Actor: Brush
+[2019.01.24-04.46.24:575][271]LogEditorActor: Deleted 1 Actors (0.253 secs)
+[2019.01.24-04.46.30:930][992]Cmd: DELETE
+[2019.01.24-04.46.30:930][992]Cmd: ACTOR DELETE
+[2019.01.24-04.46.30:986][992]LogEditorActor: Deleted Actor: Brush
+[2019.01.24-04.46.31:170][992]LogEditorActor: Deleted 1 Actors (0.238 secs)
+[2019.01.24-04.46.37:106][674]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.01.24-04.46.38:530][831]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.24-04.48.12:953][388]LogSavePackage: Moving '../../../../../../Users/owner/OneDrive/Documents/GItHubRepository/AF_AssetPipeline/WhiteBox_GeoBrushes/Saved/AF_WhiteBox_Auto2CA3CC9534E2D6EDE0FA48FA58FE2BF81.tmp' to '../../../../../../Users/owner/OneDrive/Documents/GItHubRepository/AF_AssetPipeline/WhiteBox_GeoBrushes/Saved/Autosaves/Game/Maps/AF_WhiteBox_Auto2.umap'
+[2019.01.24-04.48.12:958][388]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/AF_WhiteBox' took 1.267
+[2019.01.24-04.48.12:958][388]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.267
+[2019.01.24-04.48.17:526][866]LogEditorViewport: Clicking on Actor (LMB): Brush (Linear Stair Brush4)
+[2019.01.24-04.48.20:985][217]Cmd: TRANSACTION UNDO
+[2019.01.24-04.48.20:985][217]LogEditorTransaction: Undo Move Actors
+[2019.01.24-04.48.21:899][272]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.24-04.48.36:968][914]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.24-04.48.38:932][ 79]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2019.01.24-04.48.40:891][260]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.01.24-04.48.45:556][794]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.24-04.49.04:797][862]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.24-04.49.12:538][663]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.24-04.49.27:992][329]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.01.24-04.49.42:696][988]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.24-04.49.57:491][693]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.24-04.50.03:349][366]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.24-04.50.12:031][379]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.24-04.50.27:640][209]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.24-04.50.33:157][844]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.24-04.50.35:456][113]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.24-04.50.37:901][393]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.01.24-04.50.39:947][637]Cmd: TRANSACTION UNDO
+[2019.01.24-04.50.39:947][637]LogEditorTransaction: Undo Select Brush Surface
+[2019.01.24-04.50.40:340][664]Cmd: TRANSACTION UNDO
+[2019.01.24-04.50.40:340][664]LogEditorTransaction: Undo Clicking on Actors
+[2019.01.24-04.50.40:718][701]Cmd: TRANSACTION UNDO
+[2019.01.24-04.50.40:718][701]LogEditorTransaction: Undo Clicking on Actors
+[2019.01.24-04.50.41:100][739]Cmd: TRANSACTION UNDO
+[2019.01.24-04.50.41:100][739]LogEditorTransaction: Undo Regroup Ctrl+G
+[2019.01.24-04.50.41:517][771]Cmd: TRANSACTION UNDO
+[2019.01.24-04.50.41:517][771]LogEditorTransaction: Undo Select Brush Surface
+[2019.01.24-04.50.41:930][809]Cmd: TRANSACTION UNDO
+[2019.01.24-04.50.41:930][809]LogEditorTransaction: Undo Select Brush Surface
+[2019.01.24-04.50.42:349][852]Cmd: TRANSACTION UNDO
+[2019.01.24-04.50.42:349][852]LogEditorTransaction: Undo Clicking on Actors
+[2019.01.24-04.50.42:763][892]Cmd: TRANSACTION UNDO
+[2019.01.24-04.50.42:763][892]LogEditorTransaction: Undo Select Brush Surface
+[2019.01.24-04.50.43:214][935]Cmd: TRANSACTION UNDO
+[2019.01.24-04.50.43:214][935]LogEditorTransaction: Undo Select Brush Surface
+[2019.01.24-04.50.43:713][987]Cmd: TRANSACTION UNDO
+[2019.01.24-04.50.43:714][987]LogEditorTransaction: Undo Set Location
+[2019.01.24-04.50.53:719][ 56]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.24-04.50.59:249][694]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.01.24-04.51.05:414][399]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.24-04.51.23:286][415]Cmd: TRANSACTION UNDO
+[2019.01.24-04.51.23:286][415]LogEditorTransaction: Undo Move Actors
+[2019.01.24-04.51.27:797][898]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.24-04.51.42:044][589]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.24-04.51.43:736][733]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2019.01.24-04.51.58:373][416]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.24-04.52.08:381][568]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.24-04.52.16:774][530]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.24-04.52.25:851][535]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.24-04.52.28:178][810]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.01.24-04.52.30:327][ 55]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.01.24-04.52.39:983][181]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.24-04.52.51:431][502]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.24-04.52.57:335][181]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.24-04.53.05:046][ 79]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.24-04.53.23:870][265]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.24-04.53.31:678][180]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.24-04.53.32:496][267]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.01.24-04.53.33:117][340]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.24-04.54.55:454][769]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.24-04.54.58:109][ 63]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.24-04.54.59:827][227]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.24-04.55.04:746][731]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2019.01.24-04.55.05:199][770]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.01.24-04.55.06:997][968]Cmd: TRANSACTION UNDO
+[2019.01.24-04.55.06:997][968]LogEditorTransaction: Undo Brush Add
+[2019.01.24-04.55.07:946][ 22]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.24-04.55.09:741][199]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2019.01.24-04.55.16:530][902]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.01.24-04.55.22:724][630]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.24-04.55.43:241][906]Cmd: TRANSACTION UNDO
+[2019.01.24-04.55.43:241][906]LogEditorTransaction: Undo Move Actors
+[2019.01.24-04.55.43:985][941]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.01.24-04.55.52:475][893]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.01.24-04.55.57:325][469]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.24-04.55.59:264][684]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.01.24-04.56.04:429][265]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.24-04.56.25:690][698]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.24-04.56.41:229][422]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush231)
+[2019.01.24-04.56.43:528][681]Cmd: EDCALLBACK SURFPROPS
+[2019.01.24-04.56.46:974][ 70]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.24-04.56.57:299][219]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.01.24-04.57.04:886][102]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.24-04.57.12:228][949]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.24-04.57.20:728][932]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.24-04.57.35:405][566]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.01.24-04.58.14:611][878]LogSavePackage: Moving '../../../../../../Users/owner/OneDrive/Documents/GItHubRepository/AF_AssetPipeline/WhiteBox_GeoBrushes/Saved/AF_WhiteBox_Auto3D91EC0D041BC73879152C0A4DC879721.tmp' to '../../../../../../Users/owner/OneDrive/Documents/GItHubRepository/AF_AssetPipeline/WhiteBox_GeoBrushes/Saved/Autosaves/Game/Maps/AF_WhiteBox_Auto3.umap'
+[2019.01.24-04.58.14:616][878]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/AF_WhiteBox' took 1.292
+[2019.01.24-04.58.14:616][878]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.292
+[2019.01.24-04.58.19:271][ 27]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.01.24-04.58.25:742][729]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.24-04.58.29:012][740]LogSlate: Window 'Save Content' being destroyed
+[2019.01.24-04.58.30:149][740]LogSavePackage: Moving '../../../../../../Users/owner/OneDrive/Documents/GItHubRepository/AF_AssetPipeline/WhiteBox_GeoBrushes/Saved/AF_WhiteBox6E52E09E446BEEBF4666A28922F9AEC5.tmp' to '../../../../../../Users/owner/OneDrive/Documents/GItHubRepository/AF_AssetPipeline/WhiteBox_GeoBrushes/Content/Maps/AF_WhiteBox.umap'
+[2019.01.24-04.58.30:223][740]LogFileHelpers: Saving map 'AF_WhiteBox' took 1.187
+[2019.01.24-04.59.32:494][383]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.24-04.59.35:958][753]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2019.01.24-04.59.37:406][912]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.01.24-05.00.02:209][637]Cmd: TRANSACTION UNDO
+[2019.01.24-05.00.02:209][637]LogEditorTransaction: Undo Move Actors
+[2019.01.24-05.00.04:958][905]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.01.24-05.00.21:591][826]Cmd: TRANSACTION UNDO
+[2019.01.24-05.00.21:591][826]LogEditorTransaction: Undo Move Actors
+[2019.01.24-05.00.21:874][826]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.24-05.00.22:879][826]LogSavePackage: Moving '../../../../../../Users/owner/OneDrive/Documents/GItHubRepository/AF_AssetPipeline/WhiteBox_GeoBrushes/Saved/AF_WhiteBox73E0CE7149BBA402E8F76ABBA8A0A95B.tmp' to '../../../../../../Users/owner/OneDrive/Documents/GItHubRepository/AF_AssetPipeline/WhiteBox_GeoBrushes/Content/Maps/AF_WhiteBox.umap'
+[2019.01.24-05.00.23:084][826]LogSavePackage: Moving '../../../../../../Users/owner/OneDrive/Documents/GItHubRepository/AF_AssetPipeline/WhiteBox_GeoBrushes/Saved/AF_WhiteBox_BuiltData0AABAD664DF9FE72FD7B7D97FEB69743.tmp' to '../../../../../../Users/owner/OneDrive/Documents/GItHubRepository/AF_AssetPipeline/WhiteBox_GeoBrushes/Content/Maps/AF_WhiteBox_BuiltData.uasset'
+[2019.01.24-05.00.25:899][153]Cmd: EDIT CUT
+[2019.01.24-05.00.25:970][153]LogEditorActor: Deleted Actor: Brush
+[2019.01.24-05.00.25:971][153]LogEditorActor: Deleted Actor: Brush
+[2019.01.24-05.00.26:156][153]LogEditorActor: Deleted 2 Actors (0.233 secs)
+[2019.01.24-05.00.27:227][270]Cmd: TRANSACTION UNDO
+[2019.01.24-05.00.27:227][270]LogEditorTransaction: Undo Cut
+[2019.01.24-05.00.29:256][461]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.01.24-05.00.32:395][817]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.24-05.00.53:592][293]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.24-05.00.57:562][695]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2019.01.24-05.00.58:167][753]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.01.24-05.01.05:280][559]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.24-05.01.10:486][153]Cmd: TRANSACTION UNDO
+[2019.01.24-05.01.10:486][153]LogEditorTransaction: Undo Edit Y
+[2019.01.24-05.01.19:562][144]Cmd: TRANSACTION UNDO
+[2019.01.24-05.01.19:562][144]LogEditorTransaction: Undo Edit X
+[2019.01.24-05.01.21:367][290]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.24-05.01.49:749][757]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.24-05.01.58:506][775]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.24-05.02.09:315][  9]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.24-05.02.32:129][874]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.24-05.02.46:678][547]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.24-05.02.51:532][111]Cmd: TRANSACTION UNDO
+[2019.01.24-05.02.51:532][111]LogEditorTransaction: Undo Clicking on Actors
+[2019.01.24-05.02.52:105][151]Cmd: TRANSACTION UNDO
+[2019.01.24-05.02.52:105][151]LogEditorTransaction: Undo Regroup Ctrl+G
+[2019.01.24-05.02.52:757][209]Cmd: TRANSACTION UNDO
+[2019.01.24-05.02.52:757][209]LogEditorTransaction: Undo Select Brush Surface
+[2019.01.24-05.02.53:440][278]Cmd: TRANSACTION UNDO
+[2019.01.24-05.02.53:440][278]LogEditorTransaction: Undo Select Brush Surface
+[2019.01.24-05.03.01:344][194]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.24-05.03.08:213][962]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.24-05.03.26:397][ 69]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.24-05.03.31:288][629]Cmd: TRANSACTION UNDO
+[2019.01.24-05.03.31:288][629]LogEditorTransaction: Undo Set Location
+[2019.01.24-05.04.04:367][457]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.24-05.04.39:506][265]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.24-05.04.40:578][358]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2019.01.24-05.04.40:955][388]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.01.24-05.04.47:766][194]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.24-05.04.55:422][860]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.24-05.05.20:783][ 27]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.24-05.05.29:768][  8]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.01.24-05.05.35:070][596]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.24-05.05.38:682][998]Cmd: TRANSACTION UNDO
+[2019.01.24-05.05.38:682][998]LogEditorTransaction: Undo Set Location
+[2019.01.24-05.05.48:357][ 61]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.24-05.05.55:363][828]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.24-05.06.08:668][378]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.24-05.06.22:619][989]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.24-05.06.41:193][123]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.24-05.06.54:959][693]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.24-05.07.20:859][676]Cmd: TRANSACTION UNDO
+[2019.01.24-05.07.20:859][676]LogEditorTransaction: Undo Move Actors
+[2019.01.24-05.07.22:276][793]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.24-05.07.25:116][118]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.24-05.07.26:606][269]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2019.01.24-05.07.28:917][525]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.01.24-05.08.37:337][735]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.01.24-05.08.39:634][999]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.24-05.08.42:461][304]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.01.24-05.08.52:832][494]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.24-05.09.23:836][955]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.01.24-05.09.26:234][233]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.24-05.09.33:905][108]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.24-05.09.54:465][422]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.24-05.10.09:949][239]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.24-05.10.59:703][163]LogSavePackage: Moving '../../../../../../Users/owner/OneDrive/Documents/GItHubRepository/AF_AssetPipeline/WhiteBox_GeoBrushes/Saved/AF_WhiteBox_Auto4AF772DCF4D745B4B23FC278AFD0346C4.tmp' to '../../../../../../Users/owner/OneDrive/Documents/GItHubRepository/AF_AssetPipeline/WhiteBox_GeoBrushes/Saved/Autosaves/Game/Maps/AF_WhiteBox_Auto4.umap'
+[2019.01.24-05.10.59:708][163]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/AF_WhiteBox' took 1.464
+[2019.01.24-05.10.59:709][163]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.464
+[2019.01.24-05.11.05:853][795]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.24-05.11.13:849][708]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.24-05.11.24:907][968]Cmd: TRANSACTION UNDO
+[2019.01.24-05.11.24:907][968]LogEditorTransaction: Undo Edit Step Length
+[2019.01.24-05.11.34:999][ 34]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.24-05.11.41:533][783]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.24-05.11.49:199][637]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.24-05.11.54:692][258]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.24-05.11.58:067][632]Cmd: TRANSACTION UNDO
+[2019.01.24-05.11.58:067][632]LogEditorTransaction: Undo Edit Step Length
+[2019.01.24-05.12.51:645][413]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.24-05.12.56:985][  3]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.24-05.13.04:433][854]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.24-05.13.11:712][641]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.01.24-05.13.18:480][409]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.01.24-05.13.20:419][634]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.24-05.13.24:173][ 46]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.01.24-05.13.27:705][415]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.01.24-05.13.31:314][808]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.01.24-05.13.46:614][563]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.24-05.15.39:552][370]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.01.24-05.15.44:663][971]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.24-05.15.46:838][221]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.24-05.15.53:961][975]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2019.01.24-05.15.54:647][ 39]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.01.24-05.16.00:720][743]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.24-05.16.04:726][194]Cmd: TRANSACTION UNDO
+[2019.01.24-05.16.04:726][194]LogEditorTransaction: Undo Edit X
+[2019.01.24-05.16.16:203][446]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.24-05.16.29:099][919]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.24-05.16.35:684][667]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.24-05.16.48:594][133]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.24-05.16.54:816][836]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.24-05.17.19:654][644]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.01.24-05.17.23:498][ 30]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.01.24-05.17.38:039][639]Cmd: EDCALLBACK SURFPROPS
+[2019.01.24-05.17.41:972][ 64]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.01.24-05.18.02:937][521]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.24-05.18.12:614][596]Cmd: TRANSACTION UNDO
+[2019.01.24-05.18.12:614][596]LogEditorTransaction: Undo Move Actors
+[2019.01.24-05.18.18:674][236]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.24-05.18.30:175][514]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.24-05.18.45:708][296]Cmd: TRANSACTION UNDO
+[2019.01.24-05.18.45:708][296]LogEditorTransaction: Undo Regroup Ctrl+G
+[2019.01.24-05.18.46:522][353]Cmd: TRANSACTION UNDO
+[2019.01.24-05.18.46:522][353]LogEditorTransaction: Undo Regroup Ctrl+G
+[2019.01.24-05.18.48:659][584]Cmd: TRANSACTION UNDO
+[2019.01.24-05.18.48:659][584]LogEditorTransaction: Undo Select Brush Surface
+[2019.01.24-05.18.50:079][739]Cmd: TRANSACTION UNDO
+[2019.01.24-05.18.50:080][739]LogEditorTransaction: Undo Select Brush Surface
+[2019.01.24-05.18.52:326][980]Cmd: TRANSACTION UNDO
+[2019.01.24-05.18.52:327][980]LogEditorTransaction: Undo Select Brush Surface
+[2019.01.24-05.18.53:216][ 75]Cmd: TRANSACTION UNDO
+[2019.01.24-05.18.53:216][ 75]LogEditorTransaction: Undo Select Brush Surface
+[2019.01.24-05.18.53:740][126]Cmd: TRANSACTION UNDO
+[2019.01.24-05.18.53:740][126]LogEditorTransaction: Undo Select Brush Surface
+[2019.01.24-05.18.55:562][323]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.24-05.19.05:307][452]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.24-05.19.50:581][997]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.24-05.20.00:419][127]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.24-05.20.04:330][588]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.24-05.20.14:656][780]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.24-05.20.16:051][938]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.24-05.20.22:280][651]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.24-05.20.30:178][581]Cmd: TRANSACTION UNDO
+[2019.01.24-05.20.30:178][581]LogEditorTransaction: Undo Regroup Ctrl+G
+[2019.01.24-05.20.31:248][672]Cmd: TRANSACTION UNDO
+[2019.01.24-05.20.31:248][672]LogEditorTransaction: Undo Regroup Ctrl+G
+[2019.01.24-05.20.32:388][790]Cmd: TRANSACTION UNDO
+[2019.01.24-05.20.32:388][790]LogEditorTransaction: Undo Clicking on Actors
+[2019.01.24-05.20.40:349][719]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.24-05.20.58:068][498]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.24-05.21.13:012][199]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.24-05.21.32:763][481]Cmd: TRANSACTION UNDO
+[2019.01.24-05.21.32:763][481]LogEditorTransaction: Undo Clicking on Actors
+[2019.01.24-05.21.33:265][511]Cmd: TRANSACTION UNDO
+[2019.01.24-05.21.33:265][511]LogEditorTransaction: Undo Regroup Ctrl+G
+[2019.01.24-05.21.33:639][533]Cmd: TRANSACTION UNDO
+[2019.01.24-05.21.33:639][533]LogEditorTransaction: Undo Select Brush Surface
+[2019.01.24-05.21.33:954][558]Cmd: TRANSACTION UNDO
+[2019.01.24-05.21.33:954][558]LogEditorTransaction: Undo Select Brush Surface
+[2019.01.24-05.21.34:382][599]Cmd: TRANSACTION UNDO
+[2019.01.24-05.21.34:382][599]LogEditorTransaction: Undo Select Brush Surface
+[2019.01.24-05.21.35:250][692]Cmd: TRANSACTION UNDO
+[2019.01.24-05.21.35:250][692]LogEditorTransaction: Undo Select Brush Surface
+[2019.01.24-05.21.43:422][593]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.01.24-05.21.55:085][945]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.24-05.21.59:334][426]Cmd: TRANSACTION UNDO
+[2019.01.24-05.21.59:334][426]LogEditorTransaction: Undo Set Location
+[2019.01.24-05.22.01:938][689]Cmd: TRANSACTION UNDO
+[2019.01.24-05.22.01:938][689]LogEditorTransaction: Undo Move Actors
+[2019.01.24-05.22.05:418][ 37]Cmd: TRANSACTION UNDO
+[2019.01.24-05.22.05:418][ 37]LogEditorTransaction: Undo Move Actors
+[2019.01.24-05.22.06:535][122]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.24-05.22.17:127][335]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.24-05.22.40:672][122]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.24-05.22.46:748][778]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.24-05.23.06:417][ 83]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.24-05.23.19:603][548]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.24-05.23.28:264][531]Cmd: EDCALLBACK SURFPROPS
+[2019.01.24-05.23.29:040][614]Cmd: EDCALLBACK SURFPROPS
+[2019.01.24-05.23.29:669][686]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.24-05.23.32:462][984]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.24-05.23.44:759][282]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.24-05.23.55:320][497]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.24-05.24.02:548][321]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.24-05.24.09:899][173]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.24-05.24.18:393][162]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.24-05.24.26:054][ 31]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.24-05.24.32:820][733]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.24-05.24.35:335][ 19]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.01.24-05.24.37:606][281]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.24-05.25.01:316][423]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.24-05.25.09:854][108]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.24-05.25.18:974][175]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.24-05.25.23:610][698]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.24-05.25.26:943][ 79]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.24-05.25.27:835][179]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.24-05.25.32:282][689]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.24-05.25.37:515][299]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.24-05.25.42:289][864]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.24-05.25.48:777][633]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.24-05.25.51:641][969]Cmd: DELETE
+[2019.01.24-05.25.51:641][969]Cmd: ACTOR DELETE
+[2019.01.24-05.25.51:759][969]LogEditorActor: Deleted Actor: BP_Sky_Sphere_C
+[2019.01.24-05.25.51:761][969]LogEditorActor: Deleted Actor: Brush
+[2019.01.24-05.25.51:762][969]LogEditorActor: Deleted Actor: Brush
+[2019.01.24-05.25.51:762][969]LogEditorActor: Deleted Actor: Brush
+[2019.01.24-05.25.51:762][969]LogEditorActor: Deleted Actor: Brush
+[2019.01.24-05.25.51:762][969]LogEditorActor: Deleted Actor: Brush
+[2019.01.24-05.25.51:763][969]LogEditorActor: Deleted Actor: Brush
+[2019.01.24-05.25.51:763][969]LogEditorActor: Deleted Actor: Brush
+[2019.01.24-05.25.51:763][969]LogEditorActor: Deleted Actor: Brush
+[2019.01.24-05.25.51:763][969]LogEditorActor: Deleted Actor: Brush
+[2019.01.24-05.25.51:763][969]LogEditorActor: Deleted Actor: Brush
+[2019.01.24-05.25.51:763][969]LogEditorActor: Deleted Actor: Brush
+[2019.01.24-05.25.51:764][969]LogEditorActor: Deleted Actor: Brush
+[2019.01.24-05.25.52:015][969]LogEditorActor: Deleted 13 Actors (0.373 secs)
+[2019.01.24-05.25.53:376][122]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.24-05.25.57:813][647]Cmd: TRANSACTION UNDO
+[2019.01.24-05.25.57:813][647]LogEditorTransaction: Undo Clicking on Actors
+[2019.01.24-05.25.58:340][689]Cmd: TRANSACTION UNDO
+[2019.01.24-05.25.58:340][689]LogEditorTransaction: Undo Delete Actors
+[2019.01.24-05.26.01:068][977]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.24-05.26.01:926][ 73]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.24-05.26.03:201][210]Cmd: EDCALLBACK SURFPROPS
+[2019.01.24-05.26.03:386][229]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.01.24-05.26.03:386][229]Can't find target actor or component.
+[2019.01.24-05.26.04:847][390]Cmd: EDCALLBACK SURFPROPS
+[2019.01.24-05.26.05:771][490]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.01.24-05.26.07:612][709]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.24-05.26.08:948][865]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.24-05.26.20:562][237]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.24-05.26.22:030][407]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.24-05.26.23:369][530]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2019.01.24-05.26.24:759][677]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.01.24-05.26.26:939][936]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.24-05.26.40:281][443]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.24-05.26.55:780][226]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.24-05.27.08:958][743]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.24-05.27.30:510][139]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.24-05.27.32:160][307]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2019.01.24-05.27.41:032][333]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.24-05.27.55:123][897]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.24-05.28.05:956][ 98]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.24-05.28.16:956][362]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.24-05.28.27:463][527]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.24-05.29.31:302][652]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.24-05.29.37:184][314]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.24-05.29.45:382][246]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.24-05.29.52:190][ 21]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.24-05.29.58:746][775]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.24-05.30.05:787][546]LogEditorViewport: Clicking on Actor (LMB): Brush (Cone Brush)
+[2019.01.24-05.30.06:727][652]Cmd: TRANSACTION UNDO
+[2019.01.24-05.30.06:727][652]LogEditorTransaction: Undo Clicking on Actors
+[2019.01.24-05.30.09:096][914]Cmd: TRANSACTION UNDO
+[2019.01.24-05.30.09:096][914]LogEditorTransaction: Undo Move Actors
+[2019.01.24-05.30.22:824][468]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.24-05.30.39:761][335]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.01.24-05.30.59:860][536]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.24-05.31.19:643][649]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.01.24-05.31.27:035][447]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.01.24-05.31.29:285][702]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.01.24-05.31.37:965][556]Cmd: TRANSACTION UNDO
+[2019.01.24-05.31.37:966][556]LogEditorTransaction: Undo Snap Actors To Floor
+[2019.01.24-05.31.42:114][811]Cmd: TRANSACTION UNDO
+[2019.01.24-05.31.42:114][811]LogEditorTransaction: Undo Snap Actors To Floor
+[2019.01.24-05.31.46:638][281]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.24-05.31.54:877][ 96]Cmd: TRANSACTION UNDO
+[2019.01.24-05.31.54:877][ 96]LogEditorTransaction: Undo Snap Actors To Floor
+[2019.01.24-05.32.13:166][935]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.01.24-05.32.19:599][659]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.24-05.32.20:365][744]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.24-05.32.20:394][744]LogEditorViewport: Clicking on Actor (double click): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.24-05.32.20:440][745]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.24-05.32.21:155][825]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.24-05.32.41:940][428]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.24-05.32.43:787][436]LogSlate: Window 'Save Content' being destroyed
+[2019.01.24-05.32.45:119][436]LogSavePackage: Moving '../../../../../../Users/owner/OneDrive/Documents/GItHubRepository/AF_AssetPipeline/WhiteBox_GeoBrushes/Saved/AF_WhiteBoxA506A6674FD1B7C077379A86B5F05916.tmp' to '../../../../../../Users/owner/OneDrive/Documents/GItHubRepository/AF_AssetPipeline/WhiteBox_GeoBrushes/Content/Maps/AF_WhiteBox.umap'
+[2019.01.24-05.32.45:351][436]LogFileHelpers: Saving map 'AF_WhiteBox' took 1.551
+[2019.01.24-05.32.56:493][602]LogSlate: FSceneViewport::OnFocusLost() reason 0

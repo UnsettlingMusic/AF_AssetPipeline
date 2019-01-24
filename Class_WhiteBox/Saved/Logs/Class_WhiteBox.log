@@ -1,4 +1,4 @@
-﻿Log file open, 01/17/19 23:24:56
+﻿Log file open, 01/23/19 20:01:43
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -10,7 +10,7 @@ LogInit: Display: Running engine for game: Class_WhiteBox
 LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 17 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.307969
+LogStats: Stats thread started at 0.318506
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -7:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -94,7 +94,7 @@ LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WebMMoviePlayer
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  0.176s to configure plugins.
+LogStreaming: Display: Took  0.159s to configure plugins.
 LogInit: Using libcurl 7.55.1-DEV
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2h
@@ -123,7 +123,7 @@ LogInit: Compiled (64-bit): Nov 30 2018 04:13:25
 LogInit: Compiled with Visual C++: 19.13.26129.00
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.21
-LogInit: Command Line:  -EpicPortal -epicusername=UnsettlingMusic -epicuserid=592ba2a373ef4cb184fdfe3966208f60 -epiclocale=en-US
+LogInit: Command Line: 
 LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.21/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogDevObjectVersion: Number of dev versions registered: 22
@@ -154,529 +154,757 @@ LogInit: Presizing for max 8388607 objects, including 0 objects not considered b
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2019.01.18-06.24.57:738][  0]LogConfig: Setting CVar [[r.VSync:0]]
-[2019.01.18-06.24.57:738][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
-[2019.01.18-06.24.57:738][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/owner/OneDrive/Documents/GItHubRepository/AF_AssetPipeline/Class_WhiteBox/Saved/Config/Windows/Engine.ini]
-[2019.01.18-06.24.57:738][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2019.01.18-06.24.57:738][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/owner/OneDrive/Documents/GItHubRepository/AF_AssetPipeline/Class_WhiteBox/Saved/Config/Windows/Engine.ini]
-[2019.01.18-06.24.57:738][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/owner/OneDrive/Documents/GItHubRepository/AF_AssetPipeline/Class_WhiteBox/Saved/Config/Windows/Engine.ini]
-[2019.01.18-06.24.57:738][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2019.01.18-06.24.57:739][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2019.01.18-06.24.57:739][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2019.01.18-06.24.57:739][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2019.01.18-06.24.57:739][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2019.01.18-06.24.57:739][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2019.01.18-06.24.57:739][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2019.01.18-06.24.57:739][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2019.01.18-06.24.57:739][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2019.01.18-06.24.57:739][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2019.01.18-06.24.57:739][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2019.01.18-06.24.57:739][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2019.01.18-06.24.57:739][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2019.01.18-06.24.57:739][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/owner/OneDrive/Documents/GItHubRepository/AF_AssetPipeline/Class_WhiteBox/Saved/Config/Windows/Engine.ini]
-[2019.01.18-06.24.57:739][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2019.01.18-06.24.57:739][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2019.01.18-06.24.57:739][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2019.01.18-06.24.57:739][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2019.01.18-06.24.57:739][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2019.01.18-06.24.57:739][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2019.01.18-06.24.57:739][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:8388607]]
-[2019.01.18-06.24.57:739][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2019.01.18-06.24.57:739][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2019.01.18-06.24.57:739][  0]LogConfig: Setting CVar [[gc.MergeGCClusters:0]]
-[2019.01.18-06.24.57:739][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2019.01.18-06.24.57:739][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2019.01.18-06.24.57:739][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2019.01.18-06.24.57:739][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2019.01.18-06.24.57:739][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/owner/OneDrive/Documents/GItHubRepository/AF_AssetPipeline/Class_WhiteBox/Saved/Config/Windows/Engine.ini]
-[2019.01.18-06.24.57:739][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/owner/OneDrive/Documents/GItHubRepository/AF_AssetPipeline/Class_WhiteBox/Saved/Config/Windows/Engine.ini]
-[2019.01.18-06.24.57:755][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/owner/OneDrive/Documents/GItHubRepository/AF_AssetPipeline/Class_WhiteBox/Saved/Config/Windows/Scalability.ini]
-[2019.01.18-06.24.57:755][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2019.01.18-06.24.57:755][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2019.01.18-06.24.57:755][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/owner/OneDrive/Documents/GItHubRepository/AF_AssetPipeline/Class_WhiteBox/Saved/Config/Windows/Scalability.ini]
-[2019.01.18-06.24.57:755][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2019.01.18-06.24.57:755][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/owner/OneDrive/Documents/GItHubRepository/AF_AssetPipeline/Class_WhiteBox/Saved/Config/Windows/Scalability.ini]
-[2019.01.18-06.24.57:755][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2019.01.18-06.24.57:755][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2019.01.18-06.24.57:755][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2019.01.18-06.24.57:755][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2019.01.18-06.24.57:756][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2019.01.18-06.24.57:756][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2019.01.18-06.24.57:756][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2019.01.18-06.24.57:756][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2019.01.18-06.24.57:756][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2019.01.18-06.24.57:756][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2019.01.18-06.24.57:756][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2019.01.18-06.24.57:756][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2019.01.18-06.24.57:756][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2019.01.18-06.24.57:756][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2019.01.18-06.24.57:756][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2019.01.18-06.24.57:756][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2019.01.18-06.24.57:756][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2019.01.18-06.24.57:756][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2019.01.18-06.24.57:756][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/owner/OneDrive/Documents/GItHubRepository/AF_AssetPipeline/Class_WhiteBox/Saved/Config/Windows/Scalability.ini]
-[2019.01.18-06.24.57:756][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2019.01.18-06.24.57:756][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2019.01.18-06.24.57:756][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2019.01.18-06.24.57:756][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2019.01.18-06.24.57:756][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2019.01.18-06.24.57:756][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2019.01.18-06.24.57:757][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2019.01.18-06.24.57:757][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2019.01.18-06.24.57:757][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2019.01.18-06.24.57:757][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2019.01.18-06.24.57:757][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2019.01.18-06.24.57:757][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2019.01.18-06.24.57:757][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2019.01.18-06.24.57:757][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2019.01.18-06.24.57:757][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2019.01.18-06.24.57:757][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2019.01.18-06.24.57:757][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2019.01.18-06.24.57:757][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2019.01.18-06.24.57:757][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2019.01.18-06.24.57:757][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2019.01.18-06.24.57:757][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2019.01.18-06.24.57:757][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2019.01.18-06.24.57:757][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2019.01.18-06.24.57:757][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2019.01.18-06.24.57:757][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2019.01.18-06.24.57:757][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2019.01.18-06.24.57:757][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2019.01.18-06.24.57:758][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2019.01.18-06.24.57:758][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2019.01.18-06.24.57:758][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2019.01.18-06.24.57:758][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/owner/OneDrive/Documents/GItHubRepository/AF_AssetPipeline/Class_WhiteBox/Saved/Config/Windows/Scalability.ini]
-[2019.01.18-06.24.57:758][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2019.01.18-06.24.57:758][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2019.01.18-06.24.57:758][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2019.01.18-06.24.57:758][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2019.01.18-06.24.57:758][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2019.01.18-06.24.57:758][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2019.01.18-06.24.57:758][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2019.01.18-06.24.57:758][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2019.01.18-06.24.57:758][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/owner/OneDrive/Documents/GItHubRepository/AF_AssetPipeline/Class_WhiteBox/Saved/Config/Windows/Scalability.ini]
-[2019.01.18-06.24.57:758][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2019.01.18-06.24.57:758][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2019.01.18-06.24.57:758][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2019.01.18-06.24.57:758][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2019.01.18-06.24.57:758][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2019.01.18-06.24.57:758][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2019.01.18-06.24.57:758][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2019.01.18-06.24.57:758][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2019.01.18-06.24.57:758][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2019.01.18-06.24.57:759][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2019.01.18-06.24.57:759][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2019.01.18-06.24.57:759][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2019.01.18-06.24.57:759][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2019.01.18-06.24.57:759][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/owner/OneDrive/Documents/GItHubRepository/AF_AssetPipeline/Class_WhiteBox/Saved/Config/Windows/Scalability.ini]
-[2019.01.18-06.24.57:759][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2019.01.18-06.24.57:759][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2019.01.18-06.24.57:759][  0]LogInit: Selected Device Profile: [Windows]
-[2019.01.18-06.24.57:759][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2019.01.18-06.24.57:812][  0]LogHAL: Display: Platform has ~ 8 GB [8546492416 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2019.01.18-06.24.57:812][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:1]]
-[2019.01.18-06.24.57:812][  0]LogInit: Going up to parent DeviceProfile []
-[2019.01.18-06.24.57:812][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/owner/OneDrive/Documents/GItHubRepository/AF_AssetPipeline/Class_WhiteBox/Saved/Config/Windows/Scalability.ini]
-[2019.01.18-06.24.57:812][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2019.01.18-06.24.57:812][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2019.01.18-06.24.57:812][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/owner/OneDrive/Documents/GItHubRepository/AF_AssetPipeline/Class_WhiteBox/Saved/Config/Windows/Scalability.ini]
-[2019.01.18-06.24.57:812][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2019.01.18-06.24.57:812][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/owner/OneDrive/Documents/GItHubRepository/AF_AssetPipeline/Class_WhiteBox/Saved/Config/Windows/Scalability.ini]
-[2019.01.18-06.24.57:812][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2019.01.18-06.24.57:812][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2019.01.18-06.24.57:812][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2019.01.18-06.24.57:812][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2019.01.18-06.24.57:812][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2019.01.18-06.24.57:812][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2019.01.18-06.24.57:812][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2019.01.18-06.24.57:812][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2019.01.18-06.24.57:812][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2019.01.18-06.24.57:812][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2019.01.18-06.24.57:812][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2019.01.18-06.24.57:812][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2019.01.18-06.24.57:812][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2019.01.18-06.24.57:812][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2019.01.18-06.24.57:812][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2019.01.18-06.24.57:812][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2019.01.18-06.24.57:812][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2019.01.18-06.24.57:812][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2019.01.18-06.24.57:812][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/owner/OneDrive/Documents/GItHubRepository/AF_AssetPipeline/Class_WhiteBox/Saved/Config/Windows/Scalability.ini]
-[2019.01.18-06.24.57:812][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2019.01.18-06.24.57:812][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2019.01.18-06.24.57:812][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2019.01.18-06.24.57:812][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2019.01.18-06.24.57:812][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2019.01.18-06.24.57:812][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2019.01.18-06.24.57:812][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2019.01.18-06.24.57:812][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2019.01.18-06.24.57:812][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2019.01.18-06.24.57:812][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2019.01.18-06.24.57:812][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2019.01.18-06.24.57:813][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2019.01.18-06.24.57:813][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2019.01.18-06.24.57:813][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2019.01.18-06.24.57:813][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2019.01.18-06.24.57:813][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2019.01.18-06.24.57:813][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2019.01.18-06.24.57:813][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2019.01.18-06.24.57:813][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2019.01.18-06.24.57:813][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2019.01.18-06.24.57:813][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2019.01.18-06.24.57:813][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2019.01.18-06.24.57:813][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2019.01.18-06.24.57:813][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2019.01.18-06.24.57:813][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2019.01.18-06.24.57:813][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2019.01.18-06.24.57:813][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2019.01.18-06.24.57:813][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2019.01.18-06.24.57:813][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2019.01.18-06.24.57:813][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2019.01.18-06.24.57:813][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/owner/OneDrive/Documents/GItHubRepository/AF_AssetPipeline/Class_WhiteBox/Saved/Config/Windows/Scalability.ini]
-[2019.01.18-06.24.57:813][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2019.01.18-06.24.57:813][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2019.01.18-06.24.57:813][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2019.01.18-06.24.57:813][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2019.01.18-06.24.57:813][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2019.01.18-06.24.57:813][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2019.01.18-06.24.57:813][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2019.01.18-06.24.57:813][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2019.01.18-06.24.57:813][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/owner/OneDrive/Documents/GItHubRepository/AF_AssetPipeline/Class_WhiteBox/Saved/Config/Windows/Scalability.ini]
-[2019.01.18-06.24.57:813][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2019.01.18-06.24.57:813][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2019.01.18-06.24.57:813][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2019.01.18-06.24.57:813][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2019.01.18-06.24.57:813][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2019.01.18-06.24.57:813][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2019.01.18-06.24.57:813][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2019.01.18-06.24.57:813][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2019.01.18-06.24.57:813][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2019.01.18-06.24.57:813][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2019.01.18-06.24.57:813][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2019.01.18-06.24.57:813][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2019.01.18-06.24.57:813][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2019.01.18-06.24.57:813][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/owner/OneDrive/Documents/GItHubRepository/AF_AssetPipeline/Class_WhiteBox/Saved/Config/Windows/Scalability.ini]
-[2019.01.18-06.24.57:813][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2019.01.18-06.24.57:813][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2019.01.18-06.24.57:813][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2019.01.18-06.24.57:814][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2019.01.18-06.24.57:814][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/owner/OneDrive/Documents/GItHubRepository/AF_AssetPipeline/Class_WhiteBox/Saved/Config/Windows/Engine.ini]
-[2019.01.18-06.24.57:814][  0]LogInit: Computer: GIGABYTE-AMD
-[2019.01.18-06.24.57:814][  0]LogInit: User: owner
-[2019.01.18-06.24.57:814][  0]LogInit: CPU Page size=4096, Cores=3
-[2019.01.18-06.24.57:814][  0]LogInit: High frequency timer resolution =3.826286 MHz
-[2019.01.18-06.24.57:815][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
-[2019.01.18-06.24.57:815][  0]LogMemory: Platform Memory Stats for Windows
-[2019.01.18-06.24.57:815][  0]LogMemory: Process Physical Memory: 100.36 MB used, 100.36 MB peak
-[2019.01.18-06.24.57:815][  0]LogMemory: Process Virtual Memory: 92.60 MB used, 92.60 MB peak
-[2019.01.18-06.24.57:815][  0]LogMemory: Physical Memory: 4801.14 MB used,  3349.43 MB free, 8150.57 MB total
-[2019.01.18-06.24.57:815][  0]LogMemory: Virtual Memory: 490.95 MB used,  134217240.00 MB free, 134217728.00 MB total
-[2019.01.18-06.24.57:835][  0]LogInit: Using OS detected language (en-US).
-[2019.01.18-06.24.57:835][  0]LogInit: Using OS detected locale (en-US).
-[2019.01.18-06.24.57:836][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2019.01.18-06.24.58:340][  0]LogStreaming: Display: Took  0.506s to InitEngineTextLocalization.
-[2019.01.18-06.24.58:341][  0]LogInit: Setting process to per monitor DPI aware
-[2019.01.18-06.24.58:442][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2019.01.18-06.24.58:442][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2019.01.18-06.25.01:567][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.01.18-06.25.01:567][  0]LogD3D11RHI: D3D11 adapters:
-[2019.01.18-06.25.01:586][  0]LogD3D11RHI:    0. 'AMD Radeon R9 200 Series' (Feature Level 11_0)
-[2019.01.18-06.25.01:586][  0]LogD3D11RHI:       4074/0/3840 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x1002
-[2019.01.18-06.25.01:587][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2019.01.18-06.25.01:587][  0]LogD3D11RHI:       0/0/256 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2019.01.18-06.25.01:587][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2019.01.18-06.25.01:594][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2019.01.18-06.25.01:594][  0]LogD3D11RHI:     GPU DeviceId: 0x6810 (for the marketing name, search the web for "GPU Device Id")
-[2019.01.18-06.25.01:594][  0]LogWindows: EnumDisplayDevices:
-[2019.01.18-06.25.01:594][  0]LogWindows:    0. 'AMD Radeon R9 200 Series' (P:1 D:1)
-[2019.01.18-06.25.01:594][  0]LogWindows:    1. 'AMD Radeon R9 200 Series' (P:0 D:0)
-[2019.01.18-06.25.01:595][  0]LogWindows:    2. 'AMD Radeon R9 200 Series' (P:0 D:0)
-[2019.01.18-06.25.01:595][  0]LogWindows:    3. 'AMD Radeon R9 200 Series' (P:0 D:0)
-[2019.01.18-06.25.01:595][  0]LogWindows:    4. 'AMD Radeon R9 200 Series' (P:0 D:0)
-[2019.01.18-06.25.01:596][  0]LogWindows:    5. 'AMD Radeon R9 200 Series' (P:0 D:0)
-[2019.01.18-06.25.01:596][  0]LogWindows: DebugString: FoundDriverCount:6 
-[2019.01.18-06.25.01:596][  0]LogD3D11RHI:     Adapter Name: AMD Radeon R9 200 Series
-[2019.01.18-06.25.01:596][  0]LogD3D11RHI:   Driver Version: Crimson ReLive 17.7.1 (internal:22.19.171.1024, unified:22.19.171.1024)
-[2019.01.18-06.25.01:596][  0]LogD3D11RHI:      Driver Date: 7-4-2017
-[2019.01.18-06.25.01:596][  0]LogRHI: Texture pool is 2851 MB (70% of 4074 MB)
-[2019.01.18-06.25.01:650][  0]LogD3D11RHI: Async texture creation enabled
-[2019.01.18-06.25.01:662][  0]LogD3D11RHI: GPU Timing Frequency: 27.000000 (Debug: 2 1)
-[2019.01.18-06.25.02:411][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2019.01.18-06.25.02:431][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2019.01.18-06.25.02:451][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2019.01.18-06.25.02:469][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2019.01.18-06.25.02:525][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2019.01.18-06.25.02:544][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2019.01.18-06.25.02:562][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2019.01.18-06.25.02:580][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2019.01.18-06.25.02:589][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2019.01.18-06.25.02:723][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.18-06.25.02:723][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.18-06.25.02:723][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.18-06.25.02:723][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.18-06.25.02:723][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.18-06.25.02:723][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.18-06.25.02:723][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.18-06.25.02:723][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.18-06.25.02:723][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.18-06.25.02:723][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.18-06.25.02:723][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.18-06.25.02:723][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.18-06.25.02:723][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.18-06.25.02:723][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.18-06.25.02:723][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.18-06.25.02:723][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.18-06.25.02:723][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.18-06.25.02:723][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.18-06.25.02:725][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2019.01.18-06.25.02:852][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2019.01.18-06.25.02:852][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2019.01.18-06.25.02:884][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2019.01.18-06.25.02:884][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2019.01.18-06.25.02:903][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2019.01.18-06.25.02:919][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2019.01.18-06.25.02:936][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2019.01.18-06.25.02:976][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2019.01.18-06.25.03:043][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
-[2019.01.18-06.25.03:043][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
-[2019.01.18-06.25.03:043][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2019.01.18-06.25.03:176][  0]LogShaderCompilers: Guid format shader working directory is -51 characters bigger than the processId version (../../../../../../Users/owner/OneDrive/Documents/GItHubRepository/AF_AssetPipeline/Class_WhiteBox/Intermediate/Shaders/WorkingDirectory/3600/).
-[2019.01.18-06.25.03:176][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/owner/AppData/Local/Temp/UnrealShaderWorkingDir/5FAFC22A45DF0981C3D142BB717E60A8/'.
-[2019.01.18-06.25.03:180][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2019.01.18-06.25.03:180][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2019.01.18-06.25.03:180][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2019.01.18-06.25.05:623][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2019.01.18-06.25.06:403][  0]LogDerivedDataCache: Loaded boot cache 0.78s 86MB C:/Users/owner/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
-[2019.01.18-06.25.06:403][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/owner/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc
-[2019.01.18-06.25.06:403][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/owner/OneDrive/Documents/GItHubRepository/AF_AssetPipeline/Class_WhiteBox/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2019.01.18-06.25.06:403][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2019.01.18-06.25.06:403][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/owner/OneDrive/Documents/GItHubRepository/AF_AssetPipeline/Class_WhiteBox/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.01.18-06.25.06:403][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2019.01.18-06.25.06:435][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2019.01.18-06.25.06:435][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.01.18-06.25.06:435][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
-[2019.01.18-06.25.06:448][  0]LogDerivedDataCache: Using Local data cache path C:/Users/owner/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2019.01.18-06.25.06:448][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2019.01.18-06.25.06:448][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2019.01.18-06.25.06:484][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2019.01.18-06.25.06:486][  0]LogSlate: Using FreeType 2.6.0
-[2019.01.18-06.25.06:530][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2019.01.18-06.25.08:547][  0]LogAssetRegistry: FAssetRegistry took 0.0601 seconds to start up
-[2019.01.18-06.25.09:057][  0]LogInit: Selected Device Profile: [Windows]
-[2019.01.18-06.25.09:333][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2019.01.18-06.25.09:337][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2019.01.18-06.25.09:337][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2019.01.18-06.25.09:337][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2019.01.18-06.25.09:337][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2019.01.18-06.25.09:352][  0]LogNetVersion: Class_WhiteBox 1.0.0, NetCL: 4541578, EngineNetVer: 5, GameNetVer: 0 (Checksum: 3672237988)
-[2019.01.18-06.25.10:006][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.111727 seconds
-[2019.01.18-06.25.10:016][  0]LogUObjectArray: 39775 objects as part of root set at end of initial load.
-[2019.01.18-06.25.10:016][  0]LogUObjectAllocator: 6914664 out of 0 bytes used by permanent object pool.
-[2019.01.18-06.25.10:016][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2019.01.18-06.25.28:532][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2019.01.18-06.25.28:545][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2019.01.18-06.25.29:802][  0]SourceControl: Source control is disabled
-[2019.01.18-06.25.29:802][  0]SourceControl: Source control is disabled
-[2019.01.18-06.25.29:804][  0]SourceControl: Source control is disabled
-[2019.01.18-06.25.29:806][  0]SourceControl: Source control is disabled
-[2019.01.18-06.25.30:186][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2019.01.18-06.25.30:242][  0]LogOcInput: OculusInput pre-init called
-[2019.01.18-06.25.30:422][  0]LogEngine: Initializing Engine...
-[2019.01.18-06.25.30:423][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.01.18-06.25.30:424][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2019.01.18-06.25.30:424][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2019.01.18-06.25.30:424][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2019.01.18-06.25.30:424][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2019.01.18-06.25.30:709][  0]LogInit: Initializing FReadOnlyCVARCache
-[2019.01.18-06.25.30:724][  0]LogAIModule: Creating AISystem for world Untitled
-[2019.01.18-06.25.30:756][  0]LogInit: XAudio2 using 'Speakers (2- Logitech G933 Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
-[2019.01.18-06.25.30:770][  0]LogInit: FAudioDevice initialized.
-[2019.01.18-06.25.30:771][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2019.01.18-06.25.31:096][  0]LogDerivedDataCache: Saved boot cache 0.32s 86MB C:/Users/owner/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
-[2019.01.18-06.25.31:112][  0]LogInit: Texture streaming: Enabled
-[2019.01.18-06.25.31:134][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2019.01.18-06.25.31:154][  0]LogInit: Transaction tracking system initialized
-[2019.01.18-06.25.31:177][  0]BlueprintLog: New page: Editor Load
-[2019.01.18-06.25.31:389][  0]LocalizationService: Localization service is disabled
-[2019.01.18-06.25.32:002][  0]LogFileCache: Scanning file cache for directory 'C:/Users/owner/OneDrive/Documents/GItHubRepository/AF_AssetPipeline/Class_WhiteBox/Content/' took 0.01s
-[2019.01.18-06.25.32:002][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2019.01.18-06.25.32:003][  0]LogCook: Display: Mobile HDR setting 1
-[2019.01.18-06.25.32:003][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2019.01.18-06.25.32:003][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2019.01.18-06.25.32:003][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2019.01.18-06.25.32:003][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2019.01.18-06.25.32:003][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2019.01.18-06.25.33:316][  0]SourceControl: Source control is disabled
-[2019.01.18-06.25.33:316][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.01.18-06.25.33:316][  0]LightingResults: New page: Lighting Build
-[2019.01.18-06.25.33:320][  0]MapCheck: New page: Map Check
-[2019.01.18-06.25.33:320][  0]LightingResults: New page: Lighting Build
-[2019.01.18-06.25.33:593][  0]LogAIModule: Creating AISystem for world Untitled_1
-[2019.01.18-06.25.33:600][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.01.18-06.25.33:700][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.01.18-06.25.33:700][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.158ms to complete.
-[2019.01.18-06.25.33:700][  0]LogFileHelpers: Loading map 'Template_Default' took 0.384
-[2019.01.18-06.25.33:930][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.01.18-06.25.33:937][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.01.18-06.25.33:946][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.01.18-06.25.33:954][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.01.18-06.25.33:964][  0]LogCollectionManager: Loaded 0 collections in 0.001587 seconds
-[2019.01.18-06.25.34:005][  0]LogFileCache: Scanning file cache for directory 'C:/Users/owner/OneDrive/Documents/GItHubRepository/AF_AssetPipeline/Class_WhiteBox/Saved/Collections/' took 0.01s
-[2019.01.18-06.25.34:005][  0]LogFileCache: Scanning file cache for directory 'C:/Users/owner/OneDrive/Documents/GItHubRepository/AF_AssetPipeline/Class_WhiteBox/Content/Developers/owner/Collections/' took 0.01s
-[2019.01.18-06.25.34:005][  0]LogFileCache: Scanning file cache for directory 'C:/Users/owner/OneDrive/Documents/GItHubRepository/AF_AssetPipeline/Class_WhiteBox/Content/Collections/' took 0.01s
-[2019.01.18-06.25.34:005][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2019.01.18-06.25.34:018][  0]LogContentBrowser: Native class hierarchy populated in 0.0127 seconds. Added 2651 classes and 620 folders.
-[2019.01.18-06.25.34:024][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2019.01.18-06.25.34:040][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.01.18-06.25.34:040][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.01.18-06.25.34:041][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.01.18-06.25.34:041][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.01.18-06.25.34:042][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.01.18-06.25.34:042][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.01.18-06.25.34:043][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.01.18-06.25.34:043][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.01.18-06.25.34:044][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.01.18-06.25.34:044][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.01.18-06.25.34:045][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.01.18-06.25.34:045][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.01.18-06.25.34:046][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.01.18-06.25.34:046][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.01.18-06.25.34:047][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.01.18-06.25.34:047][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.01.18-06.25.34:048][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.01.18-06.25.34:048][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.01.18-06.25.34:049][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.01.18-06.25.34:049][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.01.18-06.25.34:050][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.01.18-06.25.34:050][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.01.18-06.25.34:051][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.01.18-06.25.34:051][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.01.18-06.25.34:052][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.01.18-06.25.34:052][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.01.18-06.25.34:975][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
-[2019.01.18-06.25.34:983][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
-[2019.01.18-06.25.35:090][  0]LogSlate: Took 0.076895 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2019.01.18-06.25.35:116][  0]LogSlate: Took 0.024096 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2019.01.18-06.25.35:159][  0]LogSlate: Took 0.036896 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2019.01.18-06.25.35:301][  0]LogRenderer: Reallocating scene render targets to support 1208x556 Format 10 NumSamples 1 (Frame:1).
-[2019.01.18-06.25.35:526][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2019.01.18-06.25.35:526][  0]LogLoad: (Engine Initialization) Total time: 43.50 seconds
-[2019.01.18-06.25.35:526][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2019.01.18-06.25.35:597][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2019.01.18-06.25.35:699][  2]LogAssetRegistry: Asset discovery search completed in 27.1744 seconds
-[2019.01.18-06.25.35:708][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2019.01.18-06.25.35:708][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000057 seconds (updated 0 objects)
-[2019.01.18-06.25.39:637][467]LogSlate: Took 0.017167 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.01.18-06.25.42:293][778]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.18-06.25.42:486][801]LogSlate: Took 0.000176 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.01.18-06.25.42:974][801]LogAIModule: Creating AISystem for world AF_WhiteBox
-[2019.01.18-06.25.43:007][801]LogAssetEditorManager: Opening Asset editor for World /Game/AF_WhiteBox.AF_WhiteBox
-[2019.01.18-06.25.43:107][801]Cmd: MAP LOAD FILE="../../../../../../Users/owner/OneDrive/Documents/GItHubRepository/AF_AssetPipeline/Class_WhiteBox/Content/AF_WhiteBox.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.01.18-06.25.43:107][801]LightingResults: New page: Lighting Build
-[2019.01.18-06.25.43:108][801]LoadErrors: New page: Loading map: AF_WhiteBox.umap
-[2019.01.18-06.25.43:108][801]MapCheck: New page: Map Check
-[2019.01.18-06.25.43:108][801]LightingResults: New page: Lighting Build
-[2019.01.18-06.25.43:217][801]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.01.18-06.25.43:326][801]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.01.18-06.25.43:326][801]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.157ms to complete.
-[2019.01.18-06.25.43:326][801]LogFileHelpers: Loading map 'AF_WhiteBox' took 0.220
-[2019.01.18-06.25.45:206][949]LogAssetEditorManager: Opening Asset editor for MapBuildDataRegistry /Game/AF_WhiteBox_BuiltData.AF_WhiteBox_BuiltData
-[2019.01.18-06.25.46:974][116]LogSlate: Window 'AF_WhiteBox_BuiltData - Generic Asset Editor' being destroyed
-[2019.01.18-06.25.46:977][116]LogSlate: Window 'AF_WhiteBox_BuiltData - Generic Asset Editor' being destroyed
-[2019.01.18-06.25.48:503][238]LogAssetEditorManager: Opening Asset editor for MaterialInstanceConstant /Game/IM_SideWalkMaterial_AF.IM_SideWalkMaterial_AF
-[2019.01.18-06.25.51:309][461]LogSlate: Window 'IM_SideWalkMaterial_AF' being destroyed
-[2019.01.18-06.25.51:311][461]LogSlate: Window 'IM_SideWalkMaterial_AF' being destroyed
-[2019.01.18-06.25.56:327][718]LogSlate: Window 'Save Level As' being destroyed
-[2019.01.18-06.29.30:521][264]LogSlate: Window 'Save Level As' being destroyed
-[2019.01.18-06.29.36:472][393]LogSlate: Window 'Save Content' being destroyed
-[2019.01.18-06.29.36:535][393]LogSavePackage: Moving '../../../../../../Users/owner/OneDrive/Documents/GItHubRepository/AF_AssetPipeline/Class_WhiteBox/Saved/IM_GrassMaterial_AF3C618CE843A893DF1E186DBB39D27D74.tmp' to '../../../../../../Users/owner/OneDrive/Documents/GItHubRepository/AF_AssetPipeline/Class_WhiteBox/Content/IM_GrassMaterial_AF.uasset'
-[2019.01.18-06.29.57:227][166]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2019.01.18-06.29.58:355][300]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2019.01.18-06.30.05:254][ 51]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.18-06.30.07:714][292]LogAssetEditorManager: Opening Asset editor for MaterialInstanceConstant /Game/IM_GrassMaterial_AF.IM_GrassMaterial_AF
-[2019.01.18-06.30.25:812][955]LogSlate: Window 'Color Picker' being destroyed
-[2019.01.18-06.30.27:741][154]LogSlate: Window 'IM_GrassMaterial_AF*' being destroyed
-[2019.01.18-06.30.27:744][154]LogSlate: Window 'IM_GrassMaterial_AF*' being destroyed
-[2019.01.18-06.30.27:867][154]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy IM_GrassMaterial_AF, compiling. 
-[2019.01.18-06.30.28:195][154]LogShaderCompilers: Display: Shaders left to compile 1
-[2019.01.18-06.30.28:197][154]TextureStreamingBuild: Display: Compiling optional shaders took 0.337 seconds.
-[2019.01.18-06.30.42:799][493]Cmd: BRUSH ADD SELECTNEWBRUSH
-[2019.01.18-06.30.44:561][686]Cmd: EDCALLBACK SURFPROPS
-[2019.01.18-06.30.46:097][860]Cmd: EDCALLBACK SURFPROPS
-[2019.01.18-06.30.47:720][ 46]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2019.01.18-06.30.52:078][535]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.18-06.31.32:239][563]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.01.18-06.31.38:128][790]LogSlate: Window 'Save Content' being destroyed
-[2019.01.18-06.31.38:718][790]LogSavePackage: Moving '../../../../../../Users/owner/OneDrive/Documents/GItHubRepository/AF_AssetPipeline/Class_WhiteBox/Saved/AF_WhiteBoxD4B1665143353F3C50017BB0AC1C829C.tmp' to '../../../../../../Users/owner/OneDrive/Documents/GItHubRepository/AF_AssetPipeline/Class_WhiteBox/Content/AF_WhiteBox.umap'
-[2019.01.18-06.31.38:751][790]LogFileHelpers: Saving map 'AF_WhiteBox' took 0.599
-[2019.01.18-06.31.38:796][790]LogSavePackage: Moving '../../../../../../Users/owner/OneDrive/Documents/GItHubRepository/AF_AssetPipeline/Class_WhiteBox/Saved/IM_GrassMaterial_AF51131C13425C2630917E0CB1503B87E5.tmp' to '../../../../../../Users/owner/OneDrive/Documents/GItHubRepository/AF_AssetPipeline/Class_WhiteBox/Content/IM_GrassMaterial_AF.uasset'
-[2019.01.18-06.31.54:420][404]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2019.01.18-06.31.54:441][404]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (Sky Sphere mesh)
-[2019.01.18-06.31.59:569][  2]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2019.01.18-06.32.11:039][498]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.18-06.32.16:307][ 79]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2019.01.18-06.32.29:733][674]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2019.01.18-06.32.31:285][820]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.18-06.33.11:393][376]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.18-06.33.33:563][347]Cmd: BRUSH ADD SELECTNEWBRUSH
-[2019.01.18-06.33.35:033][514]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2019.01.18-06.33.45:784][764]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.18-06.34.04:829][938]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.18-06.34.31:712][ 13]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2019.01.18-06.34.45:077][598]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2019.01.18-06.34.51:001][303]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2019.01.18-06.34.51:808][393]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2019.01.18-06.34.52:359][456]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2019.01.18-06.34.56:688][959]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2019.01.18-06.34.58:491][167]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2019.01.18-06.35.34:936][424]Cmd: TRANSACTION UNDO
-[2019.01.18-06.35.34:936][424]LogEditorTransaction: Undo Select Brush Surface
-[2019.01.18-06.36.04:556][801]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2019.01.18-06.36.06:978][ 77]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2019.01.18-06.36.08:906][305]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2019.01.18-06.36.17:944][314]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2019.01.18-06.36.21:899][752]Cmd: TRANSACTION UNDO
-[2019.01.18-06.36.21:899][752]LogEditorTransaction: Undo Move Actors
-[2019.01.18-06.36.27:151][259]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2019.01.18-06.36.33:273][959]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2019.01.18-06.36.38:815][565]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2019.01.18-06.36.44:568][163]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2019.01.18-06.36.50:871][881]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.18-06.36.58:856][772]Cmd: BRUSH ADD SELECTNEWBRUSH
-[2019.01.18-06.37.00:087][909]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2019.01.18-06.37.12:732][345]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.18-06.37.16:002][717]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2019.01.18-06.37.22:869][476]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2019.01.18-06.37.26:706][919]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.18-06.37.33:031][632]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2019.01.18-06.37.46:787][139]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2019.01.18-06.38.00:166][802]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.01.18-06.38.09:177][260]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2019.01.18-06.38.10:587][415]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2019.01.18-06.38.12:448][633]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2019.01.18-06.38.15:026][934]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2019.01.18-06.38.22:039][727]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.18-06.38.32:876][922]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2019.01.18-06.38.38:951][619]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.18-06.38.42:784][  5]Cmd: BRUSH ADD SELECTNEWBRUSH
-[2019.01.18-06.38.48:890][701]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.18-06.39.14:216][228]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.01.18-06.39.34:769][581]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.18-06.39.44:142][618]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.18-06.39.47:751][992]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2019.01.18-06.39.51:059][371]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2019.01.18-06.40.16:005][262]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.18-06.40.28:441][662]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush226)
-[2019.01.18-06.40.28:668][683]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2019.01.18-06.40.34:151][334]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2019.01.18-06.40.40:479][ 51]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.18-06.40.47:272][815]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2019.01.18-06.40.51:035][227]Cmd: TRANSACTION UNDO
-[2019.01.18-06.40.51:035][227]LogEditorTransaction: Undo Move Actors
-[2019.01.18-06.40.57:186][858]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2019.01.18-06.40.57:954][943]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2019.01.18-06.41.02:036][423]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2019.01.18-06.41.03:909][601]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.18-06.41.06:458][614]LogSlate: Window 'Save Content' being destroyed
-[2019.01.18-06.41.07:588][614]LogSavePackage: Moving '../../../../../../Users/owner/OneDrive/Documents/GItHubRepository/AF_AssetPipeline/Class_WhiteBox/Saved/AF_WhiteBox71D028F844EC2C04E30B1999B802E3FD.tmp' to '../../../../../../Users/owner/OneDrive/Documents/GItHubRepository/AF_AssetPipeline/Class_WhiteBox/Content/AF_WhiteBox.umap'
-[2019.01.18-06.41.07:753][614]LogFileHelpers: Saving map 'AF_WhiteBox' took 1.266
-[2019.01.18-06.41.20:509][697]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.24-03.01.44:184][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.01.24-03.01.44:184][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.01.24-03.01.44:184][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/owner/OneDrive/Documents/GItHubRepository/AF_AssetPipeline/Class_WhiteBox/Saved/Config/Windows/Engine.ini]
+[2019.01.24-03.01.44:184][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.01.24-03.01.44:184][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/owner/OneDrive/Documents/GItHubRepository/AF_AssetPipeline/Class_WhiteBox/Saved/Config/Windows/Engine.ini]
+[2019.01.24-03.01.44:184][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/owner/OneDrive/Documents/GItHubRepository/AF_AssetPipeline/Class_WhiteBox/Saved/Config/Windows/Engine.ini]
+[2019.01.24-03.01.44:185][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.01.24-03.01.44:185][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.01.24-03.01.44:185][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.01.24-03.01.44:185][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.01.24-03.01.44:185][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.01.24-03.01.44:185][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.01.24-03.01.44:185][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.01.24-03.01.44:185][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.01.24-03.01.44:185][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.01.24-03.01.44:185][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.01.24-03.01.44:185][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.01.24-03.01.44:185][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.01.24-03.01.44:185][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.01.24-03.01.44:185][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/owner/OneDrive/Documents/GItHubRepository/AF_AssetPipeline/Class_WhiteBox/Saved/Config/Windows/Engine.ini]
+[2019.01.24-03.01.44:185][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.01.24-03.01.44:185][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.01.24-03.01.44:185][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.01.24-03.01.44:185][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.01.24-03.01.44:185][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.01.24-03.01.44:185][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.01.24-03.01.44:185][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:8388607]]
+[2019.01.24-03.01.44:185][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.01.24-03.01.44:185][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.01.24-03.01.44:185][  0]LogConfig: Setting CVar [[gc.MergeGCClusters:0]]
+[2019.01.24-03.01.44:185][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.01.24-03.01.44:185][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.01.24-03.01.44:185][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.01.24-03.01.44:185][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.01.24-03.01.44:185][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/owner/OneDrive/Documents/GItHubRepository/AF_AssetPipeline/Class_WhiteBox/Saved/Config/Windows/Engine.ini]
+[2019.01.24-03.01.44:185][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/owner/OneDrive/Documents/GItHubRepository/AF_AssetPipeline/Class_WhiteBox/Saved/Config/Windows/Engine.ini]
+[2019.01.24-03.01.44:194][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/owner/OneDrive/Documents/GItHubRepository/AF_AssetPipeline/Class_WhiteBox/Saved/Config/Windows/Scalability.ini]
+[2019.01.24-03.01.44:194][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.01.24-03.01.44:194][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.01.24-03.01.44:194][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/owner/OneDrive/Documents/GItHubRepository/AF_AssetPipeline/Class_WhiteBox/Saved/Config/Windows/Scalability.ini]
+[2019.01.24-03.01.44:194][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.01.24-03.01.44:194][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/owner/OneDrive/Documents/GItHubRepository/AF_AssetPipeline/Class_WhiteBox/Saved/Config/Windows/Scalability.ini]
+[2019.01.24-03.01.44:194][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.01.24-03.01.44:194][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.01.24-03.01.44:194][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.01.24-03.01.44:194][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.01.24-03.01.44:194][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.01.24-03.01.44:194][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.01.24-03.01.44:194][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.01.24-03.01.44:194][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.01.24-03.01.44:194][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.01.24-03.01.44:194][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.01.24-03.01.44:194][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.01.24-03.01.44:194][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.01.24-03.01.44:194][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.01.24-03.01.44:194][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.01.24-03.01.44:194][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.01.24-03.01.44:194][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.01.24-03.01.44:194][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.01.24-03.01.44:194][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.01.24-03.01.44:194][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/owner/OneDrive/Documents/GItHubRepository/AF_AssetPipeline/Class_WhiteBox/Saved/Config/Windows/Scalability.ini]
+[2019.01.24-03.01.44:194][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.01.24-03.01.44:195][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.01.24-03.01.44:195][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.01.24-03.01.44:195][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.01.24-03.01.44:195][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.01.24-03.01.44:195][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.01.24-03.01.44:195][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.01.24-03.01.44:195][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.01.24-03.01.44:195][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.01.24-03.01.44:195][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.01.24-03.01.44:195][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.01.24-03.01.44:195][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.01.24-03.01.44:195][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.01.24-03.01.44:195][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.01.24-03.01.44:195][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.01.24-03.01.44:195][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.01.24-03.01.44:195][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.01.24-03.01.44:195][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.01.24-03.01.44:195][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.01.24-03.01.44:195][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.01.24-03.01.44:195][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.01.24-03.01.44:195][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.01.24-03.01.44:195][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.01.24-03.01.44:195][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.01.24-03.01.44:195][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.01.24-03.01.44:195][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.01.24-03.01.44:195][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.01.24-03.01.44:195][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.01.24-03.01.44:195][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.01.24-03.01.44:195][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.01.24-03.01.44:195][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/owner/OneDrive/Documents/GItHubRepository/AF_AssetPipeline/Class_WhiteBox/Saved/Config/Windows/Scalability.ini]
+[2019.01.24-03.01.44:195][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.01.24-03.01.44:195][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.01.24-03.01.44:195][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.01.24-03.01.44:195][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.01.24-03.01.44:195][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.01.24-03.01.44:195][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.01.24-03.01.44:195][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.01.24-03.01.44:195][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.01.24-03.01.44:195][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/owner/OneDrive/Documents/GItHubRepository/AF_AssetPipeline/Class_WhiteBox/Saved/Config/Windows/Scalability.ini]
+[2019.01.24-03.01.44:195][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.01.24-03.01.44:195][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.01.24-03.01.44:195][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.01.24-03.01.44:195][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.01.24-03.01.44:195][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.01.24-03.01.44:195][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.01.24-03.01.44:195][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.01.24-03.01.44:195][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.01.24-03.01.44:195][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.01.24-03.01.44:195][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.01.24-03.01.44:195][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.01.24-03.01.44:195][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.01.24-03.01.44:195][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.01.24-03.01.44:195][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/owner/OneDrive/Documents/GItHubRepository/AF_AssetPipeline/Class_WhiteBox/Saved/Config/Windows/Scalability.ini]
+[2019.01.24-03.01.44:195][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.01.24-03.01.44:195][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.01.24-03.01.44:195][  0]LogInit: Selected Device Profile: [Windows]
+[2019.01.24-03.01.44:195][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.01.24-03.01.44:221][  0]LogHAL: Display: Platform has ~ 8 GB [8546492416 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.01.24-03.01.44:221][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:1]]
+[2019.01.24-03.01.44:221][  0]LogInit: Going up to parent DeviceProfile []
+[2019.01.24-03.01.44:221][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/owner/OneDrive/Documents/GItHubRepository/AF_AssetPipeline/Class_WhiteBox/Saved/Config/Windows/Scalability.ini]
+[2019.01.24-03.01.44:221][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.01.24-03.01.44:221][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.01.24-03.01.44:221][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/owner/OneDrive/Documents/GItHubRepository/AF_AssetPipeline/Class_WhiteBox/Saved/Config/Windows/Scalability.ini]
+[2019.01.24-03.01.44:221][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.01.24-03.01.44:221][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/owner/OneDrive/Documents/GItHubRepository/AF_AssetPipeline/Class_WhiteBox/Saved/Config/Windows/Scalability.ini]
+[2019.01.24-03.01.44:221][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.01.24-03.01.44:221][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.01.24-03.01.44:221][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.01.24-03.01.44:221][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.01.24-03.01.44:221][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.01.24-03.01.44:221][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.01.24-03.01.44:222][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.01.24-03.01.44:222][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.01.24-03.01.44:222][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.01.24-03.01.44:222][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.01.24-03.01.44:222][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.01.24-03.01.44:222][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.01.24-03.01.44:222][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.01.24-03.01.44:222][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.01.24-03.01.44:222][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.01.24-03.01.44:222][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.01.24-03.01.44:222][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.01.24-03.01.44:222][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.01.24-03.01.44:222][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/owner/OneDrive/Documents/GItHubRepository/AF_AssetPipeline/Class_WhiteBox/Saved/Config/Windows/Scalability.ini]
+[2019.01.24-03.01.44:222][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.01.24-03.01.44:222][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.01.24-03.01.44:222][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.01.24-03.01.44:222][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.01.24-03.01.44:222][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.01.24-03.01.44:222][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.01.24-03.01.44:222][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.01.24-03.01.44:222][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.01.24-03.01.44:222][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.01.24-03.01.44:222][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.01.24-03.01.44:222][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.01.24-03.01.44:222][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.01.24-03.01.44:222][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.01.24-03.01.44:222][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.01.24-03.01.44:222][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.01.24-03.01.44:222][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.01.24-03.01.44:222][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.01.24-03.01.44:222][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.01.24-03.01.44:222][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.01.24-03.01.44:222][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.01.24-03.01.44:222][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.01.24-03.01.44:222][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.01.24-03.01.44:222][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.01.24-03.01.44:222][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.01.24-03.01.44:222][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.01.24-03.01.44:222][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.01.24-03.01.44:222][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.01.24-03.01.44:222][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.01.24-03.01.44:222][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.01.24-03.01.44:222][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.01.24-03.01.44:222][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/owner/OneDrive/Documents/GItHubRepository/AF_AssetPipeline/Class_WhiteBox/Saved/Config/Windows/Scalability.ini]
+[2019.01.24-03.01.44:222][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.01.24-03.01.44:222][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.01.24-03.01.44:222][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.01.24-03.01.44:222][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.01.24-03.01.44:222][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.01.24-03.01.44:222][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.01.24-03.01.44:222][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.01.24-03.01.44:222][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.01.24-03.01.44:222][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/owner/OneDrive/Documents/GItHubRepository/AF_AssetPipeline/Class_WhiteBox/Saved/Config/Windows/Scalability.ini]
+[2019.01.24-03.01.44:222][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.01.24-03.01.44:222][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.01.24-03.01.44:222][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.01.24-03.01.44:222][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.01.24-03.01.44:222][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.01.24-03.01.44:222][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.01.24-03.01.44:222][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.01.24-03.01.44:222][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.01.24-03.01.44:222][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.01.24-03.01.44:222][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.01.24-03.01.44:222][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.01.24-03.01.44:222][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.01.24-03.01.44:222][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.01.24-03.01.44:222][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/owner/OneDrive/Documents/GItHubRepository/AF_AssetPipeline/Class_WhiteBox/Saved/Config/Windows/Scalability.ini]
+[2019.01.24-03.01.44:223][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.01.24-03.01.44:223][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.01.24-03.01.44:223][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.01.24-03.01.44:265][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.01.24-03.01.44:265][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/owner/OneDrive/Documents/GItHubRepository/AF_AssetPipeline/Class_WhiteBox/Saved/Config/Windows/Engine.ini]
+[2019.01.24-03.01.44:265][  0]LogInit: Computer: GIGABYTE-AMD
+[2019.01.24-03.01.44:265][  0]LogInit: User: owner
+[2019.01.24-03.01.44:265][  0]LogInit: CPU Page size=4096, Cores=3
+[2019.01.24-03.01.44:265][  0]LogInit: High frequency timer resolution =3.826286 MHz
+[2019.01.24-03.01.44:265][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2019.01.24-03.01.44:265][  0]LogMemory: Platform Memory Stats for Windows
+[2019.01.24-03.01.44:265][  0]LogMemory: Process Physical Memory: 100.41 MB used, 100.41 MB peak
+[2019.01.24-03.01.44:265][  0]LogMemory: Process Virtual Memory: 84.77 MB used, 84.77 MB peak
+[2019.01.24-03.01.44:265][  0]LogMemory: Physical Memory: 2696.75 MB used,  5453.82 MB free, 8150.57 MB total
+[2019.01.24-03.01.44:266][  0]LogMemory: Virtual Memory: 482.95 MB used,  134217248.00 MB free, 134217728.00 MB total
+[2019.01.24-03.01.44:837][  0]LogInit: Using OS detected language (en-US).
+[2019.01.24-03.01.44:837][  0]LogInit: Using OS detected locale (en-US).
+[2019.01.24-03.01.44:839][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.01.24-03.01.45:540][  0]LogStreaming: Display: Took  0.703s to InitEngineTextLocalization.
+[2019.01.24-03.01.45:540][  0]LogInit: Setting process to per monitor DPI aware
+[2019.01.24-03.01.46:035][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.01.24-03.01.46:035][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.01.24-03.01.48:658][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.01.24-03.01.48:658][  0]LogD3D11RHI: D3D11 adapters:
+[2019.01.24-03.01.48:935][  0]LogD3D11RHI:    0. 'AMD Radeon R9 200 Series' (Feature Level 11_0)
+[2019.01.24-03.01.48:935][  0]LogD3D11RHI:       4074/0/3840 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x1002
+[2019.01.24-03.01.48:938][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.01.24-03.01.48:938][  0]LogD3D11RHI:       0/0/256 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.01.24-03.01.48:938][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.01.24-03.01.48:950][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.01.24-03.01.48:950][  0]LogD3D11RHI:     GPU DeviceId: 0x6810 (for the marketing name, search the web for "GPU Device Id")
+[2019.01.24-03.01.48:950][  0]LogWindows: EnumDisplayDevices:
+[2019.01.24-03.01.48:950][  0]LogWindows:    0. 'AMD Radeon R9 200 Series' (P:1 D:1)
+[2019.01.24-03.01.48:950][  0]LogWindows:    1. 'AMD Radeon R9 200 Series' (P:0 D:0)
+[2019.01.24-03.01.48:951][  0]LogWindows:    2. 'AMD Radeon R9 200 Series' (P:0 D:0)
+[2019.01.24-03.01.48:951][  0]LogWindows:    3. 'AMD Radeon R9 200 Series' (P:0 D:0)
+[2019.01.24-03.01.48:951][  0]LogWindows:    4. 'AMD Radeon R9 200 Series' (P:0 D:0)
+[2019.01.24-03.01.48:952][  0]LogWindows:    5. 'AMD Radeon R9 200 Series' (P:0 D:0)
+[2019.01.24-03.01.48:952][  0]LogWindows: DebugString: FoundDriverCount:6 
+[2019.01.24-03.01.48:952][  0]LogD3D11RHI:     Adapter Name: AMD Radeon R9 200 Series
+[2019.01.24-03.01.48:952][  0]LogD3D11RHI:   Driver Version: Crimson ReLive 17.7.1 (internal:22.19.171.1024, unified:22.19.171.1024)
+[2019.01.24-03.01.48:952][  0]LogD3D11RHI:      Driver Date: 7-4-2017
+[2019.01.24-03.01.48:952][  0]LogRHI: Texture pool is 2851 MB (70% of 4074 MB)
+[2019.01.24-03.01.49:000][  0]LogD3D11RHI: Async texture creation enabled
+[2019.01.24-03.01.49:013][  0]LogD3D11RHI: GPU Timing Frequency: 27.000000 (Debug: 2 1)
+[2019.01.24-03.01.50:356][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.01.24-03.01.50:398][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.01.24-03.01.50:428][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.01.24-03.01.50:450][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.01.24-03.01.50:488][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.01.24-03.01.50:532][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.01.24-03.01.50:552][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.01.24-03.01.50:574][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.01.24-03.01.50:601][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.01.24-03.01.50:740][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.24-03.01.50:740][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.24-03.01.50:740][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.24-03.01.50:740][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.24-03.01.50:740][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.24-03.01.50:740][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.24-03.01.50:740][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.24-03.01.50:740][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.24-03.01.50:740][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.24-03.01.50:740][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.24-03.01.50:740][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.24-03.01.50:740][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.24-03.01.50:740][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.24-03.01.50:740][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.24-03.01.50:740][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.24-03.01.50:740][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.24-03.01.50:740][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.24-03.01.50:740][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.24-03.01.50:776][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.01.24-03.01.50:971][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.01.24-03.01.50:971][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.01.24-03.01.51:039][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.01.24-03.01.51:040][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.01.24-03.01.51:059][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.01.24-03.01.51:153][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.01.24-03.01.51:183][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.01.24-03.01.51:220][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.01.24-03.01.51:289][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.01.24-03.01.51:289][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.01.24-03.01.51:289][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.01.24-03.01.52:220][  0]LogShaderCompilers: Guid format shader working directory is -51 characters bigger than the processId version (../../../../../../Users/owner/OneDrive/Documents/GItHubRepository/AF_AssetPipeline/Class_WhiteBox/Intermediate/Shaders/WorkingDirectory/8804/).
+[2019.01.24-03.01.52:220][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/owner/AppData/Local/Temp/UnrealShaderWorkingDir/E7FF30654579EFECA6D5B4B53E09C7A7/'.
+[2019.01.24-03.01.52:260][  0]LogXGEController: Cleaning working directory: C:/Users/owner/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.01.24-03.01.52:261][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.01.24-03.01.52:261][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.01.24-03.01.52:261][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.01.24-03.01.57:835][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.01.24-03.01.58:447][  0]LogDerivedDataCache: Loaded boot cache 0.61s 71MB C:/Users/owner/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
+[2019.01.24-03.01.58:448][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/owner/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc
+[2019.01.24-03.01.58:448][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/owner/OneDrive/Documents/GItHubRepository/AF_AssetPipeline/Class_WhiteBox/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.01.24-03.01.58:448][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.01.24-03.01.58:448][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/owner/OneDrive/Documents/GItHubRepository/AF_AssetPipeline/Class_WhiteBox/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.01.24-03.01.58:448][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.01.24-03.01.58:532][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.01.24-03.01.58:532][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.01.24-03.01.58:532][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2019.01.24-03.01.58:560][  0]LogDerivedDataCache: Using Local data cache path C:/Users/owner/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.01.24-03.01.58:560][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.01.24-03.01.58:560][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.01.24-03.01.58:694][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.01.24-03.01.58:769][  0]LogSlate: Using FreeType 2.6.0
+[2019.01.24-03.01.58:888][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.01.24-03.02.01:374][  0]LogAssetRegistry: FAssetRegistry took 0.0976 seconds to start up
+[2019.01.24-03.02.08:971][  0]LogInit: Selected Device Profile: [Windows]
+[2019.01.24-03.02.10:799][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.01.24-03.02.10:952][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.01.24-03.02.10:952][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.01.24-03.02.10:954][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.01.24-03.02.10:954][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.01.24-03.02.11:796][  0]LogNetVersion: Class_WhiteBox 1.0.0, NetCL: 4541578, EngineNetVer: 5, GameNetVer: 0 (Checksum: 3672237988)
+[2019.01.24-03.02.19:060][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.219361 seconds
+[2019.01.24-03.02.19:118][  0]LogUObjectArray: 39775 objects as part of root set at end of initial load.
+[2019.01.24-03.02.19:118][  0]LogUObjectAllocator: 6914664 out of 0 bytes used by permanent object pool.
+[2019.01.24-03.02.19:118][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.01.24-03.02.52:560][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.01.24-03.02.52:698][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.01.24-03.02.56:792][  0]SourceControl: Source control is disabled
+[2019.01.24-03.02.56:792][  0]SourceControl: Source control is disabled
+[2019.01.24-03.02.57:017][  0]SourceControl: Source control is disabled
+[2019.01.24-03.02.57:112][  0]SourceControl: Source control is disabled
+[2019.01.24-03.03.00:646][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.01.24-03.03.01:069][  0]LogOcInput: OculusInput pre-init called
+[2019.01.24-03.03.02:318][  0]LogEngine: Initializing Engine...
+[2019.01.24-03.03.02:366][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.01.24-03.03.02:401][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.01.24-03.03.02:401][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.01.24-03.03.02:402][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.01.24-03.03.02:402][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.01.24-03.03.03:640][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.01.24-03.03.04:626][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.01.24-03.03.04:783][  0]LogInit: XAudio2 using 'Speakers (2- Logitech G933 Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2019.01.24-03.03.04:820][  0]LogInit: FAudioDevice initialized.
+[2019.01.24-03.03.04:820][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.01.24-03.03.05:493][  0]LogDerivedDataCache: Saved boot cache 0.67s 71MB C:/Users/owner/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
+[2019.01.24-03.03.05:500][  0]LogInit: Texture streaming: Enabled
+[2019.01.24-03.03.05:669][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.01.24-03.03.05:775][  0]LogInit: Transaction tracking system initialized
+[2019.01.24-03.03.06:056][  0]BlueprintLog: New page: Editor Load
+[2019.01.24-03.03.07:853][  0]LocalizationService: Localization service is disabled
+[2019.01.24-03.03.14:031][  0]LogFileCache: Scanning file cache for directory 'C:/Users/owner/OneDrive/Documents/GItHubRepository/AF_AssetPipeline/Class_WhiteBox/Content/' took 0.04s
+[2019.01.24-03.03.14:031][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.01.24-03.03.14:031][  0]LogCook: Display: Mobile HDR setting 1
+[2019.01.24-03.03.14:031][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.01.24-03.03.14:031][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.01.24-03.03.14:031][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.01.24-03.03.14:031][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.01.24-03.03.14:031][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.01.24-03.03.17:131][  0]SourceControl: Source control is disabled
+[2019.01.24-03.03.17:400][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.01.24-03.03.17:445][  0]LightingResults: New page: Lighting Build
+[2019.01.24-03.03.17:596][  0]MapCheck: New page: Map Check
+[2019.01.24-03.03.17:596][  0]LightingResults: New page: Lighting Build
+[2019.01.24-03.03.19:335][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2019.01.24-03.03.19:893][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.01.24-03.03.20:065][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.01.24-03.03.20:086][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.216ms to complete.
+[2019.01.24-03.03.20:086][  0]LogFileHelpers: Loading map 'Template_Default' took 2.939
+[2019.01.24-03.03.21:447][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.24-03.03.21:482][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.24-03.03.21:491][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.24-03.03.21:502][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.24-03.03.21:623][  0]LogCollectionManager: Loaded 0 collections in 0.001799 seconds
+[2019.01.24-03.03.21:777][  0]LogFileCache: Scanning file cache for directory 'C:/Users/owner/OneDrive/Documents/GItHubRepository/AF_AssetPipeline/Class_WhiteBox/Saved/Collections/' took 0.01s
+[2019.01.24-03.03.21:777][  0]LogFileCache: Scanning file cache for directory 'C:/Users/owner/OneDrive/Documents/GItHubRepository/AF_AssetPipeline/Class_WhiteBox/Content/Developers/owner/Collections/' took 0.01s
+[2019.01.24-03.03.21:777][  0]LogFileCache: Scanning file cache for directory 'C:/Users/owner/OneDrive/Documents/GItHubRepository/AF_AssetPipeline/Class_WhiteBox/Content/Collections/' took 0.01s
+[2019.01.24-03.03.21:777][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2019.01.24-03.03.21:803][  0]LogContentBrowser: Native class hierarchy populated in 0.0215 seconds. Added 2651 classes and 620 folders.
+[2019.01.24-03.03.21:903][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.01.24-03.03.21:946][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.24-03.03.21:997][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.24-03.03.22:033][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.24-03.03.22:065][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.24-03.03.22:071][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.24-03.03.22:079][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.24-03.03.22:086][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.24-03.03.22:092][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.24-03.03.22:101][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.24-03.03.22:159][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.24-03.03.22:184][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.24-03.03.22:191][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.24-03.03.22:227][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.24-03.03.22:234][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.24-03.03.22:240][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.24-03.03.22:267][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.24-03.03.22:350][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.24-03.03.22:383][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.24-03.03.22:390][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.24-03.03.22:408][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.24-03.03.22:483][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.24-03.03.22:503][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.24-03.03.22:530][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.24-03.03.22:540][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.24-03.03.22:550][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.24-03.03.22:558][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.24-03.03.23:658][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.01.24-03.03.23:687][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2019.01.24-03.03.24:128][  0]LogSlate: Took 0.013375 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.01.24-03.03.24:143][  0]LogSlate: Took 0.011943 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.01.24-03.03.24:261][  0]LogSlate: Took 0.045980 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.01.24-03.03.25:048][  0]LogRenderer: Reallocating scene render targets to support 1208x556 Format 10 NumSamples 1 (Frame:1).
+[2019.01.24-03.03.25:845][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.01.24-03.03.25:845][  0]LogLoad: (Engine Initialization) Total time: 109.99 seconds
+[2019.01.24-03.03.25:845][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.03 seconds
+[2019.01.24-03.03.26:100][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.01.24-03.03.26:496][  3]LogAssetRegistry: Asset discovery search completed in 85.1802 seconds
+[2019.01.24-03.03.26:499][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2019.01.24-03.03.26:499][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000091 seconds (updated 0 objects)
+[2019.01.24-03.03.30:335][127]LogSlate: Took 0.014038 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.01.24-03.03.31:584][218]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.24-03.03.31:726][230]LogSlate: Took 0.000157 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.01.24-03.03.33:347][230]LogAIModule: Creating AISystem for world AF_WhiteBox
+[2019.01.24-03.03.33:416][230]LogAssetEditorManager: Opening Asset editor for World /Game/AF_WhiteBox.AF_WhiteBox
+[2019.01.24-03.03.33:587][230]Cmd: MAP LOAD FILE="../../../../../../Users/owner/OneDrive/Documents/GItHubRepository/AF_AssetPipeline/Class_WhiteBox/Content/AF_WhiteBox.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.01.24-03.03.33:587][230]LightingResults: New page: Lighting Build
+[2019.01.24-03.03.33:588][230]LoadErrors: New page: Loading map: AF_WhiteBox.umap
+[2019.01.24-03.03.33:605][230]MapCheck: New page: Map Check
+[2019.01.24-03.03.33:605][230]LightingResults: New page: Lighting Build
+[2019.01.24-03.03.33:809][230]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.01.24-03.03.33:950][230]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.01.24-03.03.33:950][230]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.182ms to complete.
+[2019.01.24-03.03.33:950][230]LogFileHelpers: Loading map 'AF_WhiteBox' took 0.379
+[2019.01.24-03.24.26:570][132]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.24-03.24.41:581][850]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.24-03.35.55:855][  8]LogSlate: Window 'Class_WhiteBox - Unreal Editor' being destroyed
+[2019.01.24-03.35.55:856][  8]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.01.24-03.35.56:162][  9]Cmd: QUIT_EDITOR
+[2019.01.24-03.35.56:385][  9]LogExit: Preparing to exit.
+[2019.01.24-03.35.56:884][  9]LogExit: Editor shut down
+[2019.01.24-03.35.56:884][  9]LogExit: Transaction tracking system shut down
+[2019.01.24-03.35.57:827][  9]LogExit: Object subsystem successfully closed.
+[2019.01.24-03.35.57:936][  9]LogShaderCompilers: Display: Shaders left to compile 0
+[2019.01.24-03.35.57:951][  9]LogD3D11RHI: Shutdown
+[2019.01.24-03.35.57:951][  9]LogD3D11RHI: CleanupD3DDevice
+[2019.01.24-03.35.58:037][  9]LogD3D11RHI: ~FD3D11DynamicRHI
+[2019.01.24-03.35.58:525][  9]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (624)
+[2019.01.24-03.35.58:525][  9]LogModuleManager: Shutting down and abandoning module SceneOutliner (622)
+[2019.01.24-03.35.58:525][  9]LogModuleManager: Shutting down and abandoning module AddContentDialog (620)
+[2019.01.24-03.35.58:526][  9]LogModuleManager: Shutting down and abandoning module WidgetCarousel (619)
+[2019.01.24-03.35.58:526][  9]LogModuleManager: Shutting down and abandoning module EditorWidgets (616)
+[2019.01.24-03.35.58:526][  9]LogModuleManager: Shutting down and abandoning module CollectionManager (614)
+[2019.01.24-03.35.58:540][  9]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (612)
+[2019.01.24-03.35.58:545][  9]LogModuleManager: Shutting down and abandoning module StatsViewer (610)
+[2019.01.24-03.35.58:546][  9]LogModuleManager: Shutting down and abandoning module FoliageEdit (608)
+[2019.01.24-03.35.58:546][  9]LogModuleManager: Shutting down and abandoning module LandscapeEditor (606)
+[2019.01.24-03.35.58:565][  9]LogModuleManager: Shutting down and abandoning module MeshPaintMode (604)
+[2019.01.24-03.35.58:565][  9]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (602)
+[2019.01.24-03.35.58:565][  9]LogModuleManager: Shutting down and abandoning module ActorPickerMode (600)
+[2019.01.24-03.35.58:565][  9]LogModuleManager: Shutting down and abandoning module GeometryMode (598)
+[2019.01.24-03.35.58:565][  9]LogModuleManager: Shutting down and abandoning module TextureAlignMode (596)
+[2019.01.24-03.35.58:565][  9]LogModuleManager: Shutting down and abandoning module BspMode (594)
+[2019.01.24-03.35.58:565][  9]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (592)
+[2019.01.24-03.35.58:565][  9]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (590)
+[2019.01.24-03.35.58:565][  9]LogModuleManager: Shutting down and abandoning module AutomationWorker (588)
+[2019.01.24-03.35.58:565][  9]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (586)
+[2019.01.24-03.35.58:565][  9]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (584)
+[2019.01.24-03.35.58:565][  9]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (582)
+[2019.01.24-03.35.58:578][  9]LogModuleManager: Shutting down and abandoning module PlacementMode (581)
+[2019.01.24-03.35.58:578][  9]LogModuleManager: Shutting down and abandoning module MaterialEditor (580)
+[2019.01.24-03.35.58:606][  9]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (576)
+[2019.01.24-03.35.58:606][  9]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (574)
+[2019.01.24-03.35.58:606][  9]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (572)
+[2019.01.24-03.35.58:606][  9]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (570)
+[2019.01.24-03.35.58:606][  9]LogModuleManager: Shutting down and abandoning module WebMMedia (568)
+[2019.01.24-03.35.58:606][  9]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (566)
+[2019.01.24-03.35.58:606][  9]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (564)
+[2019.01.24-03.35.58:607][  9]LogModuleManager: Shutting down and abandoning module SequenceRecorder (563)
+[2019.01.24-03.35.58:607][  9]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (560)
+[2019.01.24-03.35.58:607][  9]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (558)
+[2019.01.24-03.35.58:607][  9]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (556)
+[2019.01.24-03.35.58:607][  9]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (554)
+[2019.01.24-03.35.58:607][  9]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (552)
+[2019.01.24-03.35.58:607][  9]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (550)
+[2019.01.24-03.35.58:607][  9]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (548)
+[2019.01.24-03.35.58:607][  9]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (546)
+[2019.01.24-03.35.58:607][  9]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (544)
+[2019.01.24-03.35.58:607][  9]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (542)
+[2019.01.24-03.35.58:608][  9]LogModuleManager: Shutting down and abandoning module CharacterAI (540)
+[2019.01.24-03.35.58:608][  9]LogModuleManager: Shutting down and abandoning module SmartSnapping (538)
+[2019.01.24-03.35.58:608][  9]LogModuleManager: Shutting down and abandoning module SessionServices (536)
+[2019.01.24-03.35.58:608][  9]LogModuleManager: Shutting down and abandoning module ViewportSnapping (534)
+[2019.01.24-03.35.58:608][  9]LogModuleManager: Shutting down and abandoning module ViewportInteraction (532)
+[2019.01.24-03.35.58:619][  9]LogModuleManager: Shutting down and abandoning module ClothPainter (530)
+[2019.01.24-03.35.58:643][  9]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (529)
+[2019.01.24-03.35.58:652][  9]LogModuleManager: Shutting down and abandoning module LogVisualizer (526)
+[2019.01.24-03.35.58:659][  9]LogModuleManager: Shutting down and abandoning module IntroTutorials (524)
+[2019.01.24-03.35.58:659][  9]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (523)
+[2019.01.24-03.35.58:671][  9]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (520)
+[2019.01.24-03.35.58:671][  9]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (518)
+[2019.01.24-03.35.58:671][  9]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (516)
+[2019.01.24-03.35.58:671][  9]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (514)
+[2019.01.24-03.35.58:671][  9]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (513)
+[2019.01.24-03.35.59:815][  9]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (510)
+[2019.01.24-03.35.59:815][  9]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (508)
+[2019.01.24-03.35.59:815][  9]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (506)
+[2019.01.24-03.35.59:815][  9]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (504)
+[2019.01.24-03.35.59:815][  9]LogModuleManager: Shutting down and abandoning module TimeManagementEditor (502)
+[2019.01.24-03.35.59:815][  9]LogModuleManager: Shutting down and abandoning module InputBindingEditor (500)
+[2019.01.24-03.35.59:827][  9]LogModuleManager: Shutting down and abandoning module MergeActors (498)
+[2019.01.24-03.35.59:827][  9]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (496)
+[2019.01.24-03.35.59:827][  9]LogModuleManager: Shutting down and abandoning module LocalizationService (495)
+[2019.01.24-03.35.59:827][  9]LogModuleManager: Shutting down and abandoning module HardwareTargeting (492)
+[2019.01.24-03.35.59:827][  9]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (490)
+[2019.01.24-03.35.59:827][  9]LogModuleManager: Shutting down and abandoning module UndoHistory (488)
+[2019.01.24-03.35.59:827][  9]LogModuleManager: Shutting down and abandoning module XmlParser (486)
+[2019.01.24-03.35.59:827][  9]LogModuleManager: Shutting down and abandoning module Blutility (484)
+[2019.01.24-03.35.59:827][  9]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (482)
+[2019.01.24-03.35.59:827][  9]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (481)
+[2019.01.24-03.35.59:827][  9]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (478)
+[2019.01.24-03.35.59:827][  9]LogModuleManager: Shutting down and abandoning module SettingsEditor (476)
+[2019.01.24-03.35.59:827][  9]LogModuleManager: Shutting down and abandoning module ProjectLauncher (474)
+[2019.01.24-03.35.59:849][  9]LogModuleManager: Shutting down and abandoning module SessionFrontend (472)
+[2019.01.24-03.35.59:849][  9]LogModuleManager: Shutting down and abandoning module ProfilerClient (470)
+[2019.01.24-03.35.59:863][  9]LogModuleManager: Shutting down and abandoning module DeviceManager (468)
+[2019.01.24-03.35.59:863][  9]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (467)
+[2019.01.24-03.35.59:906][  9]LogModuleManager: Shutting down and abandoning module AutomationController (464)
+[2019.01.24-03.35.59:906][  9]LogModuleManager: Shutting down and abandoning module AutomationWindow (462)
+[2019.01.24-03.35.59:938][  9]LogModuleManager: Shutting down and abandoning module Layers (460)
+[2019.01.24-03.35.59:969][  9]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (458)
+[2019.01.24-03.35.59:969][  9]LogModuleManager: Shutting down and abandoning module DetailCustomizations (456)
+[2019.01.24-03.35.59:969][  9]LogModuleManager: Shutting down and abandoning module PackagesDialog (454)
+[2019.01.24-03.35.59:977][  9]LogModuleManager: Shutting down and abandoning module Persona (452)
+[2019.01.24-03.35.59:989][  9]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (451)
+[2019.01.24-03.35.59:989][  9]LogModuleManager: Shutting down and abandoning module AnimGraph (449)
+[2019.01.24-03.35.59:989][  9]LogModuleManager: Shutting down and abandoning module Kismet (446)
+[2019.01.24-03.35.59:989][  9]LogModuleManager: Shutting down and abandoning module GraphEditor (444)
+[2019.01.24-03.36.00:023][  9]LogModuleManager: Shutting down and abandoning module ClassViewer (442)
+[2019.01.24-03.36.00:023][  9]LogModuleManager: Shutting down and abandoning module Toolbox (440)
+[2019.01.24-03.36.00:023][  9]LogModuleManager: Shutting down and abandoning module ModuleUI (438)
+[2019.01.24-03.36.00:127][  9]LogModuleManager: Shutting down and abandoning module MovieSceneTools (436)
+[2019.01.24-03.36.00:127][  9]LogModuleManager: Shutting down and abandoning module OutputLog (434)
+[2019.01.24-03.36.00:127][  9]LogModuleManager: Shutting down and abandoning module GammaUI (432)
+[2019.01.24-03.36.00:134][  9]LogModuleManager: Shutting down and abandoning module Documentation (430)
+[2019.01.24-03.36.00:134][  9]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (428)
+[2019.01.24-03.36.00:134][  9]LogModuleManager: Shutting down and abandoning module MovieScene (426)
+[2019.01.24-03.36.00:135][  9]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (424)
+[2019.01.24-03.36.00:135][  9]LogModuleManager: Shutting down and abandoning module LauncherPlatform (422)
+[2019.01.24-03.36.00:135][  9]LogModuleManager: Shutting down and abandoning module AnalyticsET (420)
+[2019.01.24-03.36.00:135][  9]LogModuleManager: Shutting down and abandoning module PortalServices (418)
+[2019.01.24-03.36.00:135][  9]LogModuleManager: Shutting down and abandoning module PortalRpc (416)
+[2019.01.24-03.36.00:135][  9]LogModuleManager: Shutting down and abandoning module MessagingRpc (414)
+[2019.01.24-03.36.00:135][  9]LogModuleManager: Shutting down and abandoning module AIModule (412)
+[2019.01.24-03.36.00:135][  9]LogModuleManager: Shutting down and abandoning module GameplayDebugger (411)
+[2019.01.24-03.36.00:135][  9]LogModuleManager: Shutting down and abandoning module AITestSuite (409)
+[2019.01.24-03.36.00:135][  9]LogModuleManager: Shutting down and abandoning module NavigationSystem (407)
+[2019.01.24-03.36.00:135][  9]LogModuleManager: Shutting down and abandoning module DesktopPlatform (404)
+[2019.01.24-03.36.00:135][  9]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (402)
+[2019.01.24-03.36.00:138][  9]LogModuleManager: Shutting down and abandoning module ProfilerService (400)
+[2019.01.24-03.36.00:291][  9]LogModuleManager: Shutting down and abandoning module TaskGraph (398)
+[2019.01.24-03.36.00:291][  9]LogModuleManager: Shutting down and abandoning module SteamVRController (396)
+[2019.01.24-03.36.00:291][  9]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (394)
+[2019.01.24-03.36.00:291][  9]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (392)
+[2019.01.24-03.36.00:291][  9]LogModuleManager: Shutting down and abandoning module OculusInput (390)
+[2019.01.24-03.36.00:291][  9]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (388)
+[2019.01.24-03.36.00:292][  9]LogModuleManager: Shutting down and abandoning module EditableMesh (386)
+[2019.01.24-03.36.00:302][  9]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (384)
+[2019.01.24-03.36.00:302][  9]LogModuleManager: Shutting down and abandoning module CableComponent (382)
+[2019.01.24-03.36.00:302][  9]LogModuleManager: Shutting down and abandoning module AudioCapture (380)
+[2019.01.24-03.36.00:302][  9]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (378)
+[2019.01.24-03.36.00:302][  9]LogModuleManager: Shutting down and abandoning module AndroidPermission (376)
+[2019.01.24-03.36.00:302][  9]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (374)
+[2019.01.24-03.36.00:305][  9]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (372)
+[2019.01.24-03.36.00:305][  9]LogModuleManager: Shutting down and abandoning module MediaCompositing (370)
+[2019.01.24-03.36.00:305][  9]LogModuleManager: Shutting down and abandoning module LinearTimecode (368)
+[2019.01.24-03.36.00:305][  9]LogModuleManager: Shutting down and abandoning module ImgMedia (366)
+[2019.01.24-03.36.00:319][  9]LogModuleManager: Shutting down and abandoning module HTML5Networking (364)
+[2019.01.24-03.36.00:319][  9]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (362)
+[2019.01.24-03.36.00:319][  9]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (360)
+[2019.01.24-03.36.00:319][  9]LogModuleManager: Shutting down and abandoning module BackChannel (358)
+[2019.01.24-03.36.00:319][  9]LogModuleManager: Shutting down and abandoning module AppleVision (356)
+[2019.01.24-03.36.00:319][  9]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (354)
+[2019.01.24-03.36.00:319][  9]LogModuleManager: Shutting down and abandoning module AppleImageUtils (352)
+[2019.01.24-03.36.00:319][  9]LogModuleManager: Shutting down and abandoning module AlembicImporter (350)
+[2019.01.24-03.36.00:319][  9]LogModuleManager: Shutting down and abandoning module AlembicLibrary (349)
+[2019.01.24-03.36.00:319][  9]LogModuleManager: Shutting down and abandoning module GeometryCache (348)
+[2019.01.24-03.36.00:319][  9]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (347)
+[2019.01.24-03.36.00:319][  9]LogModuleManager: Shutting down and abandoning module VariantManagerContent (342)
+[2019.01.24-03.36.00:319][  9]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (340)
+[2019.01.24-03.36.00:320][  9]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (338)
+[2019.01.24-03.36.00:320][  9]LogModuleManager: Shutting down and abandoning module PluginBrowser (336)
+[2019.01.24-03.36.00:331][  9]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (334)
+[2019.01.24-03.36.00:344][  9]LogModuleManager: Shutting down and abandoning module PolygonModeling (332)
+[2019.01.24-03.36.00:344][  9]LogModuleManager: Shutting down and abandoning module MeshEditor (330)
+[2019.01.24-03.36.00:344][  9]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (328)
+[2019.01.24-03.36.00:344][  9]LogModuleManager: Shutting down and abandoning module CryptoKeys (326)
+[2019.01.24-03.36.00:344][  9]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (324)
+[2019.01.24-03.36.00:345][  9]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (322)
+[2019.01.24-03.36.00:345][  9]LogModuleManager: Shutting down and abandoning module UObjectPlugin (320)
+[2019.01.24-03.36.00:345][  9]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (318)
+[2019.01.24-03.36.00:345][  9]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (316)
+[2019.01.24-03.36.00:358][  9]LogModuleManager: Shutting down and abandoning module GitSourceControl (314)
+[2019.01.24-03.36.00:358][  9]LogModuleManager: Shutting down and abandoning module SourceControl (313)
+[2019.01.24-03.36.00:358][  9]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (310)
+[2019.01.24-03.36.00:358][  9]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (308)
+[2019.01.24-03.36.00:358][  9]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (306)
+[2019.01.24-03.36.00:358][  9]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (304)
+[2019.01.24-03.36.00:358][  9]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (302)
+[2019.01.24-03.36.00:358][  9]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (300)
+[2019.01.24-03.36.00:358][  9]LogModuleManager: Shutting down and abandoning module Paper2DEditor (298)
+[2019.01.24-03.36.00:373][  9]LogModuleManager: Shutting down and abandoning module MeshPaint (297)
+[2019.01.24-03.36.00:373][  9]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (294)
+[2019.01.24-03.36.00:373][  9]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (292)
+[2019.01.24-03.36.00:373][  9]LogModuleManager: Shutting down and abandoning module PhysXVehicles (290)
+[2019.01.24-03.36.00:373][  9]LogModuleManager: Shutting down and abandoning module OculusEditor (288)
+[2019.01.24-03.36.00:384][  9]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (286)
+[2019.01.24-03.36.00:384][  9]LogModuleManager: Shutting down and abandoning module ActorSequence (284)
+[2019.01.24-03.36.00:384][  9]LogModuleManager: Shutting down and abandoning module UdpMessaging (282)
+[2019.01.24-03.36.00:485][  9]LogModuleManager: Shutting down and abandoning module TcpMessaging (280)
+[2019.01.24-03.36.00:585][  9]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (278)
+[2019.01.24-03.36.00:585][  9]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (276)
+[2019.01.24-03.36.00:601][  9]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (274)
+[2019.01.24-03.36.00:601][  9]LogModuleManager: Shutting down and abandoning module FacialAnimation (272)
+[2019.01.24-03.36.00:601][  9]LogModuleManager: Shutting down and abandoning module DataValidation (270)
+[2019.01.24-03.36.00:601][  9]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (268)
+[2019.01.24-03.36.00:617][  9]LogModuleManager: Shutting down and abandoning module LevelEditor (267)
+[2019.01.24-03.36.00:617][  9]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (266)
+[2019.01.24-03.36.00:618][  9]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (264)
+[2019.01.24-03.36.00:618][  9]LogModuleManager: Shutting down and abandoning module MainFrame (262)
+[2019.01.24-03.36.00:618][  9]LogModuleManager: Shutting down and abandoning module HotReload (261)
+[2019.01.24-03.36.00:618][  9]LogModuleManager: Shutting down and abandoning module ContentBrowser (257)
+[2019.01.24-03.36.00:619][  9]LogModuleManager: Shutting down and abandoning module TreeMap (255)
+[2019.01.24-03.36.00:620][  9]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (252)
+[2019.01.24-03.36.00:620][  9]LogModuleManager: Shutting down and abandoning module AISupportModule (250)
+[2019.01.24-03.36.00:620][  9]LogModuleManager: Shutting down and abandoning module Paper2D (248)
+[2019.01.24-03.36.00:620][  9]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (246)
+[2019.01.24-03.36.00:620][  9]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (244)
+[2019.01.24-03.36.00:620][  9]LogModuleManager: Shutting down and abandoning module WmfMedia (242)
+[2019.01.24-03.36.00:656][  9]LogModuleManager: Shutting down and abandoning module Media (241)
+[2019.01.24-03.36.00:662][  9]LogModuleManager: Shutting down and abandoning module PacketHandler (238)
+[2019.01.24-03.36.00:662][  9]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (236)
+[2019.01.24-03.36.00:662][  9]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (234)
+[2019.01.24-03.36.00:677][  9]LogModuleManager: Shutting down and abandoning module MediaAssets (232)
+[2019.01.24-03.36.00:677][  9]LogModuleManager: Shutting down and abandoning module Overlay (230)
+[2019.01.24-03.36.00:677][  9]LogModuleManager: Shutting down and abandoning module OverlayEditor (229)
+[2019.01.24-03.36.00:678][  9]LogModuleManager: Shutting down and abandoning module VREditor (226)
+[2019.01.24-03.36.00:721][  9]LogModuleManager: Shutting down and abandoning module StringTableEditor (224)
+[2019.01.24-03.36.00:729][  9]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (222)
+[2019.01.24-03.36.00:729][  9]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (220)
+[2019.01.24-03.36.00:792][  9]LogModuleManager: Shutting down and abandoning module FunctionalTesting (218)
+[2019.01.24-03.36.00:792][  9]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (216)
+[2019.01.24-03.36.00:792][  9]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (215)
+[2019.01.24-03.36.00:792][  9]LogModuleManager: Shutting down and abandoning module UMG (212)
+[2019.01.24-03.36.00:801][  9]LogModuleManager: Shutting down and abandoning module UMGEditor (211)
+[2019.01.24-03.36.00:807][  9]LogModuleManager: Shutting down and abandoning module Sequencer (210)
+[2019.01.24-03.36.00:869][  9]LogModuleManager: Shutting down and abandoning module MessageLog (207)
+[2019.01.24-03.36.00:869][  9]LogModuleManager: Shutting down and abandoning module SlateReflector (202)
+[2019.01.24-03.36.00:888][  9]LogModuleManager: Shutting down and abandoning module Slate (200)
+[2019.01.24-03.36.00:888][  9]LogModuleManager: Shutting down and abandoning module EditorStyle (198)
+[2019.01.24-03.36.00:890][  9]LogModuleManager: Shutting down and abandoning module MRMesh (196)
+[2019.01.24-03.36.00:890][  9]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (194)
+[2019.01.24-03.36.00:890][  9]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (192)
+[2019.01.24-03.36.00:890][  9]LogModuleManager: Shutting down and abandoning module XAudio2 (190)
+[2019.01.24-03.36.00:890][  9]LogModuleManager: Shutting down and abandoning module Networking (188)
+[2019.01.24-03.36.00:890][  9]LogModuleManager: Shutting down and abandoning module Core (186)
+[2019.01.24-03.36.00:890][  9]LogModuleManager: Shutting down and abandoning module LevelSequence (184)
+[2019.01.24-03.36.00:891][  9]LogModuleManager: Shutting down and abandoning module KismetCompiler (182)
+[2019.01.24-03.36.00:891][  9]LogModuleManager: Shutting down and abandoning module MeshUtilities (180)
+[2019.01.24-03.36.00:891][  9]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (179)
+[2019.01.24-03.36.00:891][  9]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (178)
+[2019.01.24-03.36.00:891][  9]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (177)
+[2019.01.24-03.36.00:931][  9]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (175)
+[2019.01.24-03.36.00:983][  9]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (173)
+[2019.01.24-03.36.00:983][  9]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (171)
+[2019.01.24-03.36.00:983][  9]LogModuleManager: Shutting down and abandoning module MaterialBaking (167)
+[2019.01.24-03.36.00:983][  9]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (163)
+[2019.01.24-03.36.00:983][  9]LogModuleManager: Shutting down and abandoning module DerivedDataCache (160)
+[2019.01.24-03.36.01:019][  9]LogDerivedDataCache: Shutdown
+[2019.01.24-03.36.01:019][  9]LogModuleManager: Shutting down and abandoning module XGEController (158)
+[2019.01.24-03.36.01:019][  9]LogXGEController: Cleaning working directory: C:/Users/owner/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.01.24-03.36.01:020][  9]LogModuleManager: Shutting down and abandoning module TargetPlatform (156)
+[2019.01.24-03.36.01:020][  9]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (155)
+[2019.01.24-03.36.01:020][  9]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (153)
+[2019.01.24-03.36.01:020][  9]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (151)
+[2019.01.24-03.36.01:056][  9]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (149)
+[2019.01.24-03.36.01:056][  9]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (147)
+[2019.01.24-03.36.01:066][  9]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (145)
+[2019.01.24-03.36.01:066][  9]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (143)
+[2019.01.24-03.36.01:067][  9]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (141)
+[2019.01.24-03.36.01:067][  9]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (139)
+[2019.01.24-03.36.01:067][  9]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (137)
+[2019.01.24-03.36.01:067][  9]LogModuleManager: Shutting down and abandoning module ImageWrapper (136)
+[2019.01.24-03.36.01:067][  9]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (133)
+[2019.01.24-03.36.01:067][  9]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (131)
+[2019.01.24-03.36.01:067][  9]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (129)
+[2019.01.24-03.36.01:067][  9]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (127)
+[2019.01.24-03.36.01:067][  9]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (125)
+[2019.01.24-03.36.01:069][  9]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (123)
+[2019.01.24-03.36.01:069][  9]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (121)
+[2019.01.24-03.36.01:069][  9]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (119)
+[2019.01.24-03.36.01:069][  9]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (117)
+[2019.01.24-03.36.01:069][  9]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (115)
+[2019.01.24-03.36.01:071][  9]LogModuleManager: Shutting down and abandoning module Messaging (113)
+[2019.01.24-03.36.01:071][  9]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (111)
+[2019.01.24-03.36.01:073][  9]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (109)
+[2019.01.24-03.36.01:073][  9]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (107)
+[2019.01.24-03.36.01:111][  9]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (105)
+[2019.01.24-03.36.01:111][  9]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (103)
+[2019.01.24-03.36.01:112][  9]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (101)
+[2019.01.24-03.36.01:112][  9]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (99)
+[2019.01.24-03.36.01:112][  9]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (97)
+[2019.01.24-03.36.01:112][  9]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (95)
+[2019.01.24-03.36.01:112][  9]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (93)
+[2019.01.24-03.36.01:112][  9]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (91)
+[2019.01.24-03.36.01:112][  9]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (89)
+[2019.01.24-03.36.01:112][  9]LogModuleManager: Shutting down and abandoning module InputCore (86)
+[2019.01.24-03.36.01:112][  9]LogModuleManager: Shutting down and abandoning module Settings (84)
+[2019.01.24-03.36.01:112][  9]LogModuleManager: Shutting down and abandoning module PhysXCooking (82)
+[2019.01.24-03.36.01:112][  9]LogModuleManager: Shutting down and abandoning module SteamVR (80)
+[2019.01.24-03.36.01:112][  9]LogHMD: Freeing OpenVRDLLHandle.
+[2019.01.24-03.36.01:112][  9]LogModuleManager: Shutting down and abandoning module OculusHMD (78)
+[2019.01.24-03.36.01:112][  9]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (76)
+[2019.01.24-03.36.01:112][  9]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (74)
+[2019.01.24-03.36.01:112][  9]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (72)
+[2019.01.24-03.36.01:112][  9]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (68)
+[2019.01.24-03.36.01:157][  9]LogModuleManager: Shutting down and abandoning module XMPP (63)
+[2019.01.24-03.36.01:184][  9]LogModuleManager: Shutting down and abandoning module WebSockets (62)
+[2019.01.24-03.36.01:242][  9]LogModuleManager: Shutting down and abandoning module HTTP (59)
+[2019.01.24-03.36.01:242][  9]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2019.01.24-03.36.01:242][  9]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B91B79BB2-4369-8978-F8A0-128A9C880E73%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.21.1-4613538%2B%2B%2BUE4%2BRelease-4.21&UserID=22b9b2d74e184cca7f4ed6af85378164%7C592ba2a373ef4cb184fdfe3966208f60%7C78e4cfeb-7016-4887-9c30-e6c3bb3b160f&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2019.01.24-03.36.01:263][  9]LogModuleManager: Shutting down and abandoning module SSL (58)
+[2019.01.24-03.36.01:264][  9]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (54)
+[2019.01.24-03.36.01:264][  9]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (52)
+[2019.01.24-03.36.01:264][  9]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (50)
+[2019.01.24-03.36.01:265][  9]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (48)
+[2019.01.24-03.36.01:265][  9]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (46)
+[2019.01.24-03.36.01:265][  9]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (44)
+[2019.01.24-03.36.01:265][  9]LogModuleManager: Shutting down and abandoning module MagicLeapController (42)
+[2019.01.24-03.36.01:265][  9]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2019.01.24-03.36.01:265][  9]LogModuleManager: Shutting down and abandoning module MagicLeap (40)
+[2019.01.24-03.36.01:286][  9]LogModuleManager: Shutting down and abandoning module DatasmithContent (38)
+[2019.01.24-03.36.01:287][  9]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2019.01.24-03.36.01:307][  9]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2019.01.24-03.36.01:353][  9]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2019.01.24-03.36.01:365][  9]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2019.01.24-03.36.01:371][  9]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2019.01.24-03.36.01:372][  9]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2019.01.24-03.36.01:372][  9]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2019.01.24-03.36.01:406][  9]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2019.01.24-03.36.01:418][  9]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2019.01.24-03.36.01:418][  9]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2019.01.24-03.36.01:418][  9]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2019.01.24-03.36.01:418][  9]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2019.01.24-03.36.01:418][  9]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2019.01.24-03.36.01:418][  9]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2019.01.24-03.36.01:418][  9]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2019.01.24-03.36.01:418][  9]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2019.01.24-03.36.01:465][  9]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2019.01.24-03.36.01:465][  9]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2019.01.24-03.36.01:470][  9]LogExit: Exiting.
+[2019.01.24-03.36.01:474][  9]Log file closed, 01/23/19 20:36:01
